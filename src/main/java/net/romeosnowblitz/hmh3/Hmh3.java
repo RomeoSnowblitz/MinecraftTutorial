@@ -1,6 +1,7 @@
 package net.romeosnowblitz.hmh3;
 
 import net.fabricmc.api.ModInitializer;
+import net.romeosnowblitz.hmh3.item.ModItemGroup;
 import net.romeosnowblitz.hmh3.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -11,6 +12,7 @@ public class Hmh3 implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModItemGroup.registerModItemGroup();
 		ModItems.registerModItems();
 	}
 }
