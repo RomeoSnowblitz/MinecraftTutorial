@@ -1,6 +1,7 @@
 package net.romeosnowblitz.hmh3;
 
 import net.fabricmc.api.ModInitializer;
+import net.romeosnowblitz.hmh3.block.ModBlocks;
 import net.romeosnowblitz.hmh3.item.ModItemGroup;
 import net.romeosnowblitz.hmh3.item.ModItems;
 import org.slf4j.Logger;
@@ -14,5 +15,6 @@ public class Hmh3 implements ModInitializer {
 	public void onInitialize() {
 		ModItemGroup.registerModItemGroup();
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }

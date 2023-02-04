@@ -9,6 +9,7 @@ import net.minecraft.item.Items;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 import net.romeosnowblitz.hmh3.Hmh3;
+import net.romeosnowblitz.hmh3.block.ModBlocks;
 
 public class ModItemGroup {
 
@@ -22,7 +23,7 @@ public class ModItemGroup {
 
         MOD_BLOCKS = FabricItemGroup.builder(new Identifier(Hmh3.MOD_ID, "blocks"))
                 .displayName(Text.literal("Mod Blocks"))
-                .icon(() -> new ItemStack(Blocks.END_PORTAL)).build();
+                .icon(() -> new ItemStack(ModBlocks.CEMENT)).build();
     }
 
 }
