@@ -17,6 +17,9 @@
 	"entrypoints": {
 		"main": [
           "net.romeosnowblitz.hmh3.Hmh3"
+		],
+		"fabric-datagen": [
+			"net.romeosnowblitz.hmh3.datagen.ModDataGeneration"
 		]
 	},
 	"mixins": [
