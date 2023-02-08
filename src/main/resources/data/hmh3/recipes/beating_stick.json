@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "mod",
+  "pattern": [
+    " /",
+    "/ "
+  ],
+  "key": {
+    "/": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "hmh3:beating_stick",
+    "count": 1
+  }
+}
