@@ -11,14 +11,17 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.math.intprovider.UniformIntProvider;
 import net.minecraft.world.BlockView;
 import net.romeosnowblitz.hmh3.Hmh3;
 import net.romeosnowblitz.hmh3.item.ModItemGroup;
 
 public class ModBlocks {
 
-    public static final Block CEMENT = registerBlock("cement", new Block(AbstractBlock.Settings.of(Material.STONE).requiresTool()), ModItemGroup.MOD_BLOCKS);
+    public static final Block CEMENT = registerBlock("cement", new Block(AbstractBlock.Settings.of(Material.STONE).requiresTool().emissiveLighting(ModBlocks::always).luminance((state)->{return 15;})), ModItemGroup.MOD_BLOCKS);
 
+    public static final Block SCULK_SPONGE = registerBlock("sculk_sponge", new SculkSponge(AbstractBlock.Settings.of(Material.SPONGE)), ModItemGroup.MOD_BLOCKS);
+    public static final Block XP_BLOCK = registerBlock("xp_block", new ExperienceDroppingBlock(AbstractBlock.Settings.of(Material.GLASS), UniformIntProvider.create(1, 1000)), ModItemGroup.MOD_BLOCKS);
 
     private static Boolean never(BlockState state, BlockView world, BlockPos pos, EntityType<?> type) {
         return false;

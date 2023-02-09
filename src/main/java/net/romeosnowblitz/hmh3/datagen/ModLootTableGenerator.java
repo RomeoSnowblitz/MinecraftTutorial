@@ -12,5 +12,6 @@ public class ModLootTableGenerator extends FabricBlockLootTableProvider {
     @Override
     public void generate() {
         addDrop(ModBlocks.CEMENT);
+        addDrop(ModBlocks.SCULK_SPONGE);
     }
 }
