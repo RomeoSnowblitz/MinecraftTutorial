@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:bread"
+  },
+  "result": "hmh3:bagel",
+  "count": 3
+}

@@ -1,8 +1,9 @@
-// 1.19.3	2023-02-09T16:44:02.3368099	hmh3/Model Definitions
+// 1.19.3	2023-02-11T22:39:10.0435503	hmh3/Model Definitions
 f0a1e541027efe671bfed8c694c0fecd29fc316d assets\hmh3\blockstates\xp_block.json
 258d403beb13a888f7112cd3ec34c93f95bc1d18 assets\hmh3\models\item\xp_block.json
 d40e1cc0af08c166acbc2f0dee55d86da6fbd386 assets\hmh3\models\item\cement.json
 4aa16164d7490022feeafc7e1c0dbeb929b1f97b assets\hmh3\models\block\xp_block.json
+a6601c17f1977f0fe19093f3d37ec379d4985f6b assets\hmh3\models\item\golden_bagel.json
 16bd84e9e167dfd56dd8000f64d834ac4d51f7a6 assets\hmh3\models\item\sculk_sponge.json
 7080c16fd1b16da226cea66528bbb1844fa6774a assets\hmh3\models\block\sculk_sponge.json
 ce3a7f0efcc167daabbcb14af845186ede4e0350 assets\hmh3\models\item\boom_block.json
@@ -11,4 +12,5 @@ ce3a7f0efcc167daabbcb14af845186ede4e0350 assets\hmh3\models\item\boom_block.json
 d6b6f189aba92d52a8646162c30189ed4dc99fcd assets\hmh3\models\block\boom_block.json
 4366dfc886d45632573bb2004c3f8daeb7fe70ea assets\hmh3\blockstates\boom_block.json
 631e28440d488703bd40eae190e14c0f14284085 assets\hmh3\models\block\cement.json
+e4b5c83d83051893a371f4565ae8a047dcc32b95 assets\hmh3\models\item\bagel.json
 b6034fa8b9f542655dedb6483889e218d7590fce assets\hmh3\blockstates\cement.json

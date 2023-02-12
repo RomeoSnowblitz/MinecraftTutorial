@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#B#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:gold_nugget"
+    },
+    "B": {
+      "item": "hmh3:bagel"
+    }
+  },
+  "result": {
+    "item": "hmh3:golden_bagel",
+    "count": 1
+  }
+}

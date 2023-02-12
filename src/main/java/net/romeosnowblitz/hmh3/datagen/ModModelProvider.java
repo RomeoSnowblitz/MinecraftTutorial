@@ -24,5 +24,7 @@ public class ModModelProvider extends FabricModelProvider {
     @Override
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
         itemModelGenerator.register(ModItems.BEATING_STICK, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.BAGEL, Models.GENERATED);
+        itemModelGenerator.register(ModItems.GOLDEN_BAGEL, Models.GENERATED);
     }
 }
