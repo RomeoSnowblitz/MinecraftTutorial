@@ -24,6 +24,9 @@ public class ModItems {
                     .statusEffect(new StatusEffectInstance(StatusEffects.ABSORPTION, 260, 0), 1.0f)
                     .statusEffect(new StatusEffectInstance(StatusEffects.REGENERATION, 2600, 0), 1.0f).build())));
 
+    public static final Item SAND_TILLER = registerItem("sand_tiller", new SandTiller(new FabricItemSettings()));
+
+
     private static Item registerItem(String name, Item item){
         return Registry.register(Registries.ITEM, new Identifier(Hmh3.MOD_ID, name), item);
     }
