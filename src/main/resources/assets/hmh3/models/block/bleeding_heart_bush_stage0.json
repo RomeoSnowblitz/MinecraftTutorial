@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "hmh3:block/bleeding_heart_bush_stage0"
+  }
+}

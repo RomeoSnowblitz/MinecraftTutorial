@@ -18,6 +18,9 @@
 		"main": [
           "net.romeosnowblitz.hmh3.Hmh3"
 		],
+		"client": [
+			"net.romeosnowblitz.hmh3.Hmh3Client"
+		],
 		"fabric-datagen": [
 			"net.romeosnowblitz.hmh3.datagen.ModDataGeneration"
 		]
