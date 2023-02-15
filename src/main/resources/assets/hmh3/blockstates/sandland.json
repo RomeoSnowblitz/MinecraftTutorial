@@ -1,0 +1,28 @@
+{
+  "variants": {
+    "moisture=0": {
+      "model": "hmh3:block/sandland"
+    },
+    "moisture=1": {
+      "model": "hmh3:block/sandland"
+    },
+    "moisture=2": {
+      "model": "hmh3:block/sandland"
+    },
+    "moisture=3": {
+      "model": "hmh3:block/sandland"
+    },
+    "moisture=4": {
+      "model": "hmh3:block/sandland"
+    },
+    "moisture=5": {
+      "model": "hmh3:block/sandland"
+    },
+    "moisture=6": {
+      "model": "hmh3:block/sandland"
+    },
+    "moisture=7": {
+      "model": "hmh3:block/sandland_moist"
+    }
+  }
+}
