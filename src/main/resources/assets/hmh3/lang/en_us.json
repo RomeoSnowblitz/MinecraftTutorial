@@ -4,9 +4,12 @@
   "item.hmh3.golden_bagel": "Golden Bagel",
   "item.hmh3.sand_tiller": "Sand Tiller",
   "item.hmh3.bleeding_heart": "Bleeding Heart",
+  "item.hmh3.sandy_carrot": "Sandy Carrot",
+
   "block.hmh3.cement": "Cement",
   "block.hmh3.sculk_sponge": "Sculk Sponge",
   "block.hmh3.xp_block": "Experience Block",
   "block.hmh3.boom_block": "Boom Block",
-  "block.hmh3.sandland": "Sandland"
+  "block.hmh3.sandland": "Sandland",
+  "block.hmh3.sandy_carrot_block": "Sandy Carrot Block"
 }

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/crop",
+  "textures": {
+    "crop": "hmh3:block/sandy_carrots_stage2"
+  }
+}

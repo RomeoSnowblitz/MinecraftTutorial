@@ -24,9 +24,9 @@ public class ModBlocks {
     public static final Block XP_BLOCK = registerBlock("xp_block", new ExperienceDroppingBlock(AbstractBlock.Settings.of(Material.GLASS), UniformIntProvider.create(1, 1000)), ModItemGroup.MOD_BLOCKS);
     public static final Block BOOM_BLOCK = registerBlock("boom_block", new BoomBlock(AbstractBlock.Settings.of(Material.SOIL).noCollision().emissiveLighting(ModBlocks::always).luminance((state)->{return 15;})), ModItemGroup.MOD_BLOCKS);
     public static final Block BLEEDING_HEART_BUSH = registerBlock("bleeding_heart_bush", new BleedingHeartBush(AbstractBlock.Settings.of(Material.PLANT).ticksRandomly().noCollision().sounds(BlockSoundGroup.SWEET_BERRY_BUSH)), ModItemGroup.MOD_BLOCKS);
-
     public static final Block SANDLAND = registerBlock("sandland", new SandLand(AbstractBlock.Settings.of(Material.SOIL).ticksRandomly()), ModItemGroup.MOD_BLOCKS);
 
+    public static final Block SANDY_CARROT_BLOCK = registerBlock("sandy_carrot_block", new SandyCarrotBlock(AbstractBlock.Settings.of(Material.PLANT).noCollision().ticksRandomly().breakInstantly().sounds(BlockSoundGroup.CROP)), ModItemGroup.MOD_BLOCKS);
 
     private static Boolean never(BlockState state, BlockView world, BlockPos pos, EntityType<?> type) {
         return false;
