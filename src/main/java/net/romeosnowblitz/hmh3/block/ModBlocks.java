@@ -2,6 +2,7 @@ package net.romeosnowblitz.hmh3.block;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
+import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.*;
 import net.minecraft.entity.EntityType;
 import net.minecraft.item.BlockItem;
@@ -15,6 +16,7 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.intprovider.UniformIntProvider;
 import net.minecraft.world.BlockView;
 import net.romeosnowblitz.hmh3.Hmh3;
+import net.romeosnowblitz.hmh3.fluid.ModFluids;
 import net.romeosnowblitz.hmh3.item.ModItemGroup;
 
 public class ModBlocks {
@@ -25,8 +27,9 @@ public class ModBlocks {
     public static final Block BOOM_BLOCK = registerBlock("boom_block", new BoomBlock(AbstractBlock.Settings.of(Material.SOIL).noCollision().emissiveLighting(ModBlocks::always).luminance((state)->{return 15;})), ModItemGroup.MOD_BLOCKS);
     public static final Block BLEEDING_HEART_BUSH = registerBlock("bleeding_heart_bush", new BleedingHeartBush(AbstractBlock.Settings.of(Material.PLANT).ticksRandomly().noCollision().sounds(BlockSoundGroup.SWEET_BERRY_BUSH)), ModItemGroup.MOD_BLOCKS);
     public static final Block SANDLAND = registerBlock("sandland", new SandLand(AbstractBlock.Settings.of(Material.SOIL).ticksRandomly()), ModItemGroup.MOD_BLOCKS);
-
     public static final Block SANDY_CARROT_BLOCK = registerBlock("sandy_carrot_block", new SandyCarrotBlock(AbstractBlock.Settings.of(Material.PLANT).noCollision().ticksRandomly().breakInstantly().sounds(BlockSoundGroup.CROP)), ModItemGroup.MOD_BLOCKS);
+
+    public static final Block VITAL_FLUID_BLOCK = registerBlockWithoutBlockItem("vital_fluid_block", new ModFluidBlock(ModFluids.VITAL_FLUID_STILL, FabricBlockSettings.of(Material.WATER).noCollision().nonOpaque().dropsNothing()), ModItemGroup.MOD_BLOCKS);
 
     private static Boolean never(BlockState state, BlockView world, BlockPos pos, EntityType<?> type) {
         return false;
@@ -42,6 +45,10 @@ public class ModBlocks {
 
     private static boolean never(BlockState state, BlockView world, BlockPos pos) {
         return false;
+    }
+
+    private static Block registerBlockWithoutBlockItem(String name, Block block, ItemGroup group){
+        return Registry.register(Registries.BLOCK, new Identifier(Hmh3.MOD_ID, name), block);
     }
 
     public static Block registerBlock(String name, Block block, ItemGroup group) {
