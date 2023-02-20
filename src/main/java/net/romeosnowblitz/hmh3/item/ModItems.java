@@ -20,8 +20,9 @@ public class ModItems {
     public static final Item SAND_TILLER = registerItem("sand_tiller", new SandTiller(new FabricItemSettings()));
     public static final Item BLEEDING_HEART = registerItem("bleeding_heart", new AliasedBlockItem(ModBlocks.BLEEDING_HEART_BUSH, new Item.Settings().food(new FoodComponent.Builder().hunger(1).saturationModifier(0.1f).snack().statusEffect(new StatusEffectInstance(StatusEffects.REGENERATION, 100, 9), 0.5f).build())));
     public static final Item SANDY_CARROT = registerItem("sandy_carrot", new AliasedBlockItem(ModBlocks.SANDY_CARROT_BLOCK, (new Item.Settings()).food(new FoodComponent.Builder().hunger(1).saturationModifier(0.1f).snack().statusEffect(new StatusEffectInstance(StatusEffects.HUNGER, 100, 9), 0.5f).build())));
-
     public static final Item VITAL_FLUID = registerItem("vital_fluid", new MultiPurposeBucket(ModFluids.VITAL_FLUID_STILL, new FabricItemSettings().recipeRemainder(Items.BUCKET).maxCount(1)));
+
+    public static final Item OBSIDIAN_PICKAXE = registerItem("obsidian_pickaxe", new PickaxeItem(ModToolMaterials.OBSIDIAN, 6, 3.5f, new  FabricItemSettings()));
 
     private static Item registerItem(String name, Item item){
         return Registry.register(Registries.ITEM, new Identifier(Hmh3.MOD_ID, name), item);
@@ -35,6 +36,7 @@ public class ModItems {
         addToItemGroup(ModItemGroup.MOD_ITEMS, BLEEDING_HEART);
         addToItemGroup(ModItemGroup.MOD_ITEMS, SANDY_CARROT);
         addToItemGroup(ModItemGroup.MOD_ITEMS, VITAL_FLUID);
+        addToItemGroup(ModItemGroup.MOD_ITEMS, OBSIDIAN_PICKAXE);
     }
 
     public static void addToItemGroup(ItemGroup group, Item item){
