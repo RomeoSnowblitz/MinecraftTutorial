@@ -23,6 +23,7 @@ public class ModItems {
     public static final Item VITAL_FLUID = registerItem("vital_fluid", new MultiPurposeBucket(ModFluids.VITAL_FLUID_STILL, new FabricItemSettings().recipeRemainder(Items.BUCKET).maxCount(1)));
 
     public static final Item OBSIDIAN_PICKAXE = registerItem("obsidian_pickaxe", new PickaxeItem(ModToolMaterials.OBSIDIAN, 6, 3.5f, new  FabricItemSettings()));
+    public static final Item AMETHYST_SWORD = registerItem("amethyst_sword", new AmethystSword(ModToolMaterials.AMETHYST, 6, -2.5f, new  FabricItemSettings()));
 
     private static Item registerItem(String name, Item item){
         return Registry.register(Registries.ITEM, new Identifier(Hmh3.MOD_ID, name), item);
@@ -37,6 +38,7 @@ public class ModItems {
         addToItemGroup(ModItemGroup.MOD_ITEMS, SANDY_CARROT);
         addToItemGroup(ModItemGroup.MOD_ITEMS, VITAL_FLUID);
         addToItemGroup(ModItemGroup.MOD_ITEMS, OBSIDIAN_PICKAXE);
+        addToItemGroup(ModItemGroup.MOD_ITEMS, AMETHYST_SWORD);
     }
 
     public static void addToItemGroup(ItemGroup group, Item item){

@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/handheld",
   "textures": {
-    "layer0": "hmh3:item/obsidian_pickaxe"
+    "layer0": "hmh3:item/amethyst_sword"
   }
 }

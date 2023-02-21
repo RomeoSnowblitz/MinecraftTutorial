@@ -12,6 +12,9 @@ public enum ModToolMaterials implements ToolMaterial {
 
     OBSIDIAN(4, 3122, 8.0F, 0.0F, 30, () -> {
         return Ingredient.ofItems(Items.OBSIDIAN);
+    }),
+    AMETHYST(2, 500, 3.0F, 5.0F, 30, () -> {
+        return Ingredient.ofItems(Items.AMETHYST_SHARD);
     });
 
     private final int miningLevel;
