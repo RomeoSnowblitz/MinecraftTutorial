@@ -13,7 +13,10 @@ public enum ModToolMaterials implements ToolMaterial {
     OBSIDIAN(4, 3122, 8.0F, 0.0F, 30, () -> {
         return Ingredient.ofItems(Items.OBSIDIAN);
     }),
-    AMETHYST(2, 500, 3.0F, 5.0F, 30, () -> {
+    AMETHYST(2, 500, 3.0F, 0.0F, 30, () -> {
+        return Ingredient.ofItems(Items.AMETHYST_SHARD);
+    }),
+    PRISMARINE(2, 1000, 2.0F, 0.0F, 30, () -> {
         return Ingredient.ofItems(Items.AMETHYST_SHARD);
     });
 

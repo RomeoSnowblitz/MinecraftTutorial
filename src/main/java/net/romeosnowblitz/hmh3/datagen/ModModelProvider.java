@@ -32,5 +32,6 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.VITAL_FLUID, Models.GENERATED);
         itemModelGenerator.register(ModItems.OBSIDIAN_PICKAXE, Models.HANDHELD);
         itemModelGenerator.register(ModItems.AMETHYST_SWORD, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.PRISMARINE_AXE, Models.HANDHELD);
     }
 }
