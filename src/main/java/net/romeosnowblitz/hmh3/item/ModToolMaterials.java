@@ -17,7 +17,10 @@ public enum ModToolMaterials implements ToolMaterial {
         return Ingredient.ofItems(Items.AMETHYST_SHARD);
     }),
     PRISMARINE(2, 1000, 2.0F, 0.0F, 30, () -> {
-        return Ingredient.ofItems(Items.AMETHYST_SHARD);
+        return Ingredient.ofItems(Items.PRISMARINE_SHARD);
+    }),
+    BRICK(2, 1000, 2.0F, 0.0F, 30, () -> {
+        return Ingredient.ofItems(Items.BRICK);
     });
 
     private final int miningLevel;

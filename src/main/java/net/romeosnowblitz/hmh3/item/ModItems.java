@@ -25,6 +25,9 @@ public class ModItems {
     public static final Item OBSIDIAN_PICKAXE = registerItem("obsidian_pickaxe", new PickaxeItem(ModToolMaterials.OBSIDIAN, 6, -0.5f, new  FabricItemSettings()));
     public static final Item AMETHYST_SWORD = registerItem("amethyst_sword", new AmethystSword(ModToolMaterials.AMETHYST, 10, -2.5f, new  FabricItemSettings()));
     public static final Item PRISMARINE_AXE = registerItem("prismarine_axe", new AxeItem(ModToolMaterials.PRISMARINE, 8, -1.0f, new  FabricItemSettings()));
+    public static final Item BRICK_SHOVEL = registerItem("brick_shovel", new BrickShovel(ModToolMaterials.BRICK, 2, 0f, new  FabricItemSettings()));
+
+
 
     private static Item registerItem(String name, Item item){
         return Registry.register(Registries.ITEM, new Identifier(Hmh3.MOD_ID, name), item);
