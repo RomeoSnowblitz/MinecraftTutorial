@@ -1,0 +1,6 @@
+{
+    "parent": "item/bow",
+    "textures": {
+        "layer0": "hmh3:item/bone_bow_pulling_2"
+    }
+}

@@ -27,6 +27,7 @@ public class ModItems {
     public static final Item PRISMARINE_AXE = registerItem("prismarine_axe", new AxeItem(ModToolMaterials.PRISMARINE, 8, -1.0f, new  FabricItemSettings()));
     public static final Item BRICK_SHOVEL = registerItem("brick_shovel", new BrickShovel(ModToolMaterials.BRICK, 2, 0f, new  FabricItemSettings()));
     public static final Item SCULK_HOE = registerItem("sculk_hoe", new HoeItem(ModToolMaterials.SCULK, 1, 0f, new  FabricItemSettings()));
+    public static final Item BONE_BOW = registerItem("bone_bow", new BowItem(new  FabricItemSettings().maxDamage(600)));
 
 
     private static Item registerItem(String name, Item item){
@@ -46,6 +47,7 @@ public class ModItems {
         addToItemGroup(ModItemGroup.MOD_ITEMS, PRISMARINE_AXE);
         addToItemGroup(ModItemGroup.MOD_ITEMS, BRICK_SHOVEL);
         addToItemGroup(ModItemGroup.MOD_ITEMS, SCULK_HOE);
+        addToItemGroup(ModItemGroup.MOD_ITEMS, BONE_BOW);
     }
 
     public static void addToItemGroup(ItemGroup group, Item item){
