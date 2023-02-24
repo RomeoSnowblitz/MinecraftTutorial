@@ -21,6 +21,9 @@ public enum ModToolMaterials implements ToolMaterial {
     }),
     BRICK(2, 1000, 2.0F, 0.0F, 30, () -> {
         return Ingredient.ofItems(Items.BRICK);
+    }),
+    SCULK(3, 1000, 4.0F, 0.0F, 30, () -> {
+        return Ingredient.ofItems(Items.BRICK);
     });
 
     private final int miningLevel;

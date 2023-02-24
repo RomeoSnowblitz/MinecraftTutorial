@@ -30,7 +30,7 @@ public class BrickShovel extends ShovelItem {
         } else {
             --i;
         }
-        i = MathHelper.clamp(i, 0, 20);
+        i = MathHelper.clamp(i, 0, 255);
         StatusEffectInstance statusEffectInstance2 = new StatusEffectInstance(StatusEffects.HASTE, 100, i);
         if(!world.getGameRules().getBoolean(GameRules.DISABLE_RAIDS)) {
             miner.addStatusEffect(statusEffectInstance2);

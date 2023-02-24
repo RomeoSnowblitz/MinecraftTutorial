@@ -26,7 +26,7 @@ public class ModItems {
     public static final Item AMETHYST_SWORD = registerItem("amethyst_sword", new AmethystSword(ModToolMaterials.AMETHYST, 10, -2.5f, new  FabricItemSettings()));
     public static final Item PRISMARINE_AXE = registerItem("prismarine_axe", new AxeItem(ModToolMaterials.PRISMARINE, 8, -1.0f, new  FabricItemSettings()));
     public static final Item BRICK_SHOVEL = registerItem("brick_shovel", new BrickShovel(ModToolMaterials.BRICK, 2, 0f, new  FabricItemSettings()));
-
+    public static final Item SCULK_HOE = registerItem("sculk_hoe", new HoeItem(ModToolMaterials.SCULK, 1, 0f, new  FabricItemSettings()));
 
 
     private static Item registerItem(String name, Item item){
@@ -44,6 +44,8 @@ public class ModItems {
         addToItemGroup(ModItemGroup.MOD_ITEMS, OBSIDIAN_PICKAXE);
         addToItemGroup(ModItemGroup.MOD_ITEMS, AMETHYST_SWORD);
         addToItemGroup(ModItemGroup.MOD_ITEMS, PRISMARINE_AXE);
+        addToItemGroup(ModItemGroup.MOD_ITEMS, BRICK_SHOVEL);
+        addToItemGroup(ModItemGroup.MOD_ITEMS, SCULK_HOE);
     }
 
     public static void addToItemGroup(ItemGroup group, Item item){
