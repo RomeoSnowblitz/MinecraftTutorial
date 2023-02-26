@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "# #",
+    "# #"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:nether_brick"
+    }
+  },
+  "result": {
+    "item": "hmh3:nether_brick_boots",
+    "count": 1
+  }
+}

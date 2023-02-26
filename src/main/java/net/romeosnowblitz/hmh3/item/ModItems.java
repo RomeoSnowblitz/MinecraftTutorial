@@ -2,6 +2,7 @@ package net.romeosnowblitz.hmh3.item;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
+import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.entity.effect.StatusEffectInstance;
 import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.item.*;
@@ -29,6 +30,10 @@ public class ModItems {
     public static final Item SCULK_HOE = registerItem("sculk_hoe", new HoeItem(ModToolMaterials.SCULK, 1, 0f, new  FabricItemSettings()));
     public static final Item BONE_BOW = registerItem("bone_bow", new BowItem(new  FabricItemSettings().maxDamage(600)));
 
+    public static final Item NETHER_BRICK_HELMET = registerItem("nether_brick_helmet", new ArmorItem(ModArmorMaterials.NETHER_BRICK, EquipmentSlot.HEAD, new  FabricItemSettings()));
+    public static final Item NETHER_BRICK_CHESTPLATE = registerItem("nether_brick_chestplate", new ArmorItem(ModArmorMaterials.NETHER_BRICK, EquipmentSlot.CHEST, new  FabricItemSettings()));
+    public static final Item NETHER_BRICK_LEGGINGS = registerItem("nether_brick_leggings", new ArmorItem(ModArmorMaterials.NETHER_BRICK, EquipmentSlot.LEGS, new  FabricItemSettings()));
+    public static final Item NETHER_BRICK_BOOTS = registerItem("nether_brick_boots", new ArmorItem(ModArmorMaterials.NETHER_BRICK, EquipmentSlot.FEET, new  FabricItemSettings()));
 
     private static Item registerItem(String name, Item item){
         return Registry.register(Registries.ITEM, new Identifier(Hmh3.MOD_ID, name), item);
@@ -48,6 +53,10 @@ public class ModItems {
         addToItemGroup(ModItemGroup.MOD_ITEMS, BRICK_SHOVEL);
         addToItemGroup(ModItemGroup.MOD_ITEMS, SCULK_HOE);
         addToItemGroup(ModItemGroup.MOD_ITEMS, BONE_BOW);
+        addToItemGroup(ModItemGroup.MOD_ITEMS, NETHER_BRICK_HELMET);
+        addToItemGroup(ModItemGroup.MOD_ITEMS, NETHER_BRICK_CHESTPLATE);
+        addToItemGroup(ModItemGroup.MOD_ITEMS, NETHER_BRICK_LEGGINGS);
+        addToItemGroup(ModItemGroup.MOD_ITEMS, NETHER_BRICK_BOOTS);
     }
 
     public static void addToItemGroup(ItemGroup group, Item item){
