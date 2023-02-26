@@ -22,7 +22,6 @@ public class ModItems {
     public static final Item BLEEDING_HEART = registerItem("bleeding_heart", new AliasedBlockItem(ModBlocks.BLEEDING_HEART_BUSH, new Item.Settings().food(new FoodComponent.Builder().hunger(1).saturationModifier(0.1f).snack().statusEffect(new StatusEffectInstance(StatusEffects.REGENERATION, 100, 9), 0.5f).build())));
     public static final Item SANDY_CARROT = registerItem("sandy_carrot", new AliasedBlockItem(ModBlocks.SANDY_CARROT_BLOCK, (new Item.Settings()).food(new FoodComponent.Builder().hunger(1).saturationModifier(0.1f).snack().statusEffect(new StatusEffectInstance(StatusEffects.HUNGER, 100, 9), 0.5f).build())));
     public static final Item VITAL_FLUID = registerItem("vital_fluid", new MultiPurposeBucket(ModFluids.VITAL_FLUID_STILL, new FabricItemSettings().recipeRemainder(Items.BUCKET).maxCount(1)));
-
     public static final Item OBSIDIAN_PICKAXE = registerItem("obsidian_pickaxe", new PickaxeItem(ModToolMaterials.OBSIDIAN, 6, -0.5f, new  FabricItemSettings()));
     public static final Item AMETHYST_SWORD = registerItem("amethyst_sword", new AmethystSword(ModToolMaterials.AMETHYST, 10, -2.5f, new  FabricItemSettings()));
     public static final Item PRISMARINE_AXE = registerItem("prismarine_axe", new AxeItem(ModToolMaterials.PRISMARINE, 8, -1.0f, new  FabricItemSettings()));
@@ -30,7 +29,7 @@ public class ModItems {
     public static final Item SCULK_HOE = registerItem("sculk_hoe", new HoeItem(ModToolMaterials.SCULK, 1, 0f, new  FabricItemSettings()));
     public static final Item BONE_BOW = registerItem("bone_bow", new BowItem(new  FabricItemSettings().maxDamage(600)));
 
-    public static final Item NETHER_BRICK_HELMET = registerItem("nether_brick_helmet", new ArmorItem(ModArmorMaterials.NETHER_BRICK, EquipmentSlot.HEAD, new  FabricItemSettings()));
+    public static final Item NETHER_BRICK_HELMET = registerItem("nether_brick_helmet", new NetherBrickPerk(ModArmorMaterials.NETHER_BRICK, EquipmentSlot.HEAD, new  FabricItemSettings()));
     public static final Item NETHER_BRICK_CHESTPLATE = registerItem("nether_brick_chestplate", new ArmorItem(ModArmorMaterials.NETHER_BRICK, EquipmentSlot.CHEST, new  FabricItemSettings()));
     public static final Item NETHER_BRICK_LEGGINGS = registerItem("nether_brick_leggings", new ArmorItem(ModArmorMaterials.NETHER_BRICK, EquipmentSlot.LEGS, new  FabricItemSettings()));
     public static final Item NETHER_BRICK_BOOTS = registerItem("nether_brick_boots", new ArmorItem(ModArmorMaterials.NETHER_BRICK, EquipmentSlot.FEET, new  FabricItemSettings()));
