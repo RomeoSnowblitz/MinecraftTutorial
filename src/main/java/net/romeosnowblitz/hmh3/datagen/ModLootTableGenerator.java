@@ -13,5 +13,8 @@ public class ModLootTableGenerator extends FabricBlockLootTableProvider {
     public void generate() {
         addDrop(ModBlocks.CEMENT);
         addDrop(ModBlocks.SCULK_SPONGE);
+        addDrop(ModBlocks.XP_BLOCK);
+        addDrop(ModBlocks.BOOM_BLOCK);
+        addDrop(ModBlocks.TOFFEE_FLOWER);
     }
 }

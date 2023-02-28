@@ -28,11 +28,11 @@ public class ModItems {
     public static final Item BRICK_SHOVEL = registerItem("brick_shovel", new BrickShovel(ModToolMaterials.BRICK, 2, 0f, new  FabricItemSettings()));
     public static final Item SCULK_HOE = registerItem("sculk_hoe", new HoeItem(ModToolMaterials.SCULK, 1, 0f, new  FabricItemSettings()));
     public static final Item BONE_BOW = registerItem("bone_bow", new BowItem(new  FabricItemSettings().maxDamage(600)));
-
     public static final Item NETHER_BRICK_HELMET = registerItem("nether_brick_helmet", new NetherBrickPerk(ModArmorMaterials.NETHER_BRICK, EquipmentSlot.HEAD, new  FabricItemSettings()));
     public static final Item NETHER_BRICK_CHESTPLATE = registerItem("nether_brick_chestplate", new ArmorItem(ModArmorMaterials.NETHER_BRICK, EquipmentSlot.CHEST, new  FabricItemSettings()));
     public static final Item NETHER_BRICK_LEGGINGS = registerItem("nether_brick_leggings", new ArmorItem(ModArmorMaterials.NETHER_BRICK, EquipmentSlot.LEGS, new  FabricItemSettings()));
     public static final Item NETHER_BRICK_BOOTS = registerItem("nether_brick_boots", new ArmorItem(ModArmorMaterials.NETHER_BRICK, EquipmentSlot.FEET, new  FabricItemSettings()));
+
 
     private static Item registerItem(String name, Item item){
         return Registry.register(Registries.ITEM, new Identifier(Hmh3.MOD_ID, name), item);

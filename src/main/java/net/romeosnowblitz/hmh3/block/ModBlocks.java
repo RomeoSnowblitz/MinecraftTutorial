@@ -5,6 +5,7 @@ import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.*;
 import net.minecraft.entity.EntityType;
+import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
@@ -28,8 +29,9 @@ public class ModBlocks {
     public static final Block BLEEDING_HEART_BUSH = registerBlock("bleeding_heart_bush", new BleedingHeartBush(AbstractBlock.Settings.of(Material.PLANT).ticksRandomly().noCollision().sounds(BlockSoundGroup.SWEET_BERRY_BUSH)), ModItemGroup.MOD_BLOCKS);
     public static final Block SANDLAND = registerBlock("sandland", new SandLand(AbstractBlock.Settings.of(Material.SOIL).ticksRandomly()), ModItemGroup.MOD_BLOCKS);
     public static final Block SANDY_CARROT_BLOCK = registerBlock("sandy_carrot_block", new SandyCarrotBlock(AbstractBlock.Settings.of(Material.PLANT).noCollision().ticksRandomly().breakInstantly().sounds(BlockSoundGroup.CROP)), ModItemGroup.MOD_BLOCKS);
-
     public static final Block VITAL_FLUID_BLOCK = registerBlockWithoutBlockItem("vital_fluid_block", new ModFluidBlock(ModFluids.VITAL_FLUID_STILL, FabricBlockSettings.of(Material.WATER).noCollision().nonOpaque().dropsNothing()), ModItemGroup.MOD_BLOCKS);
+
+    public static final Block TOFFEE_FLOWER = registerBlock("toffee_flower", new ToffeeRoseBlock(StatusEffects.SATURATION, 7, AbstractBlock.Settings.of(Material.PLANT).nonOpaque().noCollision().breakInstantly().sounds(BlockSoundGroup.GRASS).offsetType(AbstractBlock.OffsetType.XZ)), ModItemGroup.MOD_BLOCKS);
 
     private static Boolean never(BlockState state, BlockView world, BlockPos pos, EntityType<?> type) {
         return false;
