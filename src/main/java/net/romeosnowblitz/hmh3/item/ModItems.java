@@ -8,6 +8,7 @@ import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
+import net.minecraft.util.DyeColor;
 import net.minecraft.util.Identifier;
 import net.romeosnowblitz.hmh3.Hmh3;
 import net.romeosnowblitz.hmh3.block.ModBlocks;
@@ -34,6 +35,8 @@ public class ModItems {
     public static final Item NETHER_BRICK_BOOTS = registerItem("nether_brick_boots", new ArmorItem(ModArmorMaterials.NETHER_BRICK, EquipmentSlot.FEET, new  FabricItemSettings()));
 
 
+    public static final Item LIGHT_BROWN_DYE = registerItem("light_brown_dye", new BrownDyeItem(new FabricItemSettings()));
+
     private static Item registerItem(String name, Item item){
         return Registry.register(Registries.ITEM, new Identifier(Hmh3.MOD_ID, name), item);
     }
@@ -56,6 +59,7 @@ public class ModItems {
         addToItemGroup(ModItemGroup.MOD_ITEMS, NETHER_BRICK_CHESTPLATE);
         addToItemGroup(ModItemGroup.MOD_ITEMS, NETHER_BRICK_LEGGINGS);
         addToItemGroup(ModItemGroup.MOD_ITEMS, NETHER_BRICK_BOOTS);
+        addToItemGroup(ModItemGroup.MOD_ITEMS, LIGHT_BROWN_DYE);
     }
 
     public static void addToItemGroup(ItemGroup group, Item item){
