@@ -19,6 +19,7 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.SCULK_SPONGE);
         blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.XP_BLOCK);
         blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.BOOM_BLOCK);
+        blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.LIGHT_BROWN_WOOL);
     }
 
     @Override

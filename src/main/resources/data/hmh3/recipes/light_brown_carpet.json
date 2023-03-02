@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "hmh3:light_brown_wool"
+    }
+  },
+  "result": {
+    "item": "hmh3:light_brown_carpet",
+    "count": 3
+  }
+}

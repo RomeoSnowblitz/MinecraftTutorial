@@ -1,6 +1,8 @@
-// 1.19.3	2023-02-28T22:33:35.9756794	hmh3/Block Loot Tables
+// 1.19.3	2023-03-02T00:15:21.2847603	hmh3/Block Loot Tables
 45819237793aa5f75c46c992f7b00164866fe94d data\hmh3\loot_tables\blocks\boom_block.json
 1381fef44c45b5029c367e6fa080ff658ed1c7e5 data\hmh3\loot_tables\blocks\xp_block.json
+5903456c143331c3ccd45595049b9d721ed6915b data\hmh3\loot_tables\blocks\light_brown_wool.json
 e7109582f38f012a3ccbe843868e71e6ea629949 data\hmh3\loot_tables\blocks\toffee_flower.json
+f722e03e9eccdf58cc2553185eec0357cbf8b37b data\hmh3\loot_tables\blocks\light_brown_carpet.json
 77626814b1b2692001beb2fe1267d426d09ff000 data\hmh3\loot_tables\blocks\sculk_sponge.json
 d4baf96aad59f777aab40bbeff360203b24c62f2 data\hmh3\loot_tables\blocks\cement.json
