@@ -8,7 +8,6 @@ import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
-import net.minecraft.util.DyeColor;
 import net.minecraft.util.Identifier;
 import net.romeosnowblitz.hmh3.Hmh3;
 import net.romeosnowblitz.hmh3.block.ModBlocks;

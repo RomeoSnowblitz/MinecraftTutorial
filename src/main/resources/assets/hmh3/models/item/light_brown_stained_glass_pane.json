@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "hmh3:block/light_brown_stained_glass"
+  }
+}

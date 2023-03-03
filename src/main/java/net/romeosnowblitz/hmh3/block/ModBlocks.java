@@ -34,8 +34,8 @@ public class ModBlocks {
     public static final Block TOFFEE_FLOWER = registerBlock("toffee_flower", new ToffeeRoseBlock(StatusEffects.SATURATION, 7, AbstractBlock.Settings.of(Material.PLANT).nonOpaque().noCollision().breakInstantly().sounds(BlockSoundGroup.GRASS).offsetType(AbstractBlock.OffsetType.XZ)), ModItemGroup.MOD_BLOCKS);
     public static final Block LIGHT_BROWN_WOOL = registerBlock("light_brown_wool", new Block(AbstractBlock.Settings.of(Material.WOOL)), ModItemGroup.MOD_BLOCKS);
     public static final Block LIGHT_BROWN_CARPET = registerBlock("light_brown_carpet", new ModDyedCarpetBlock(LIGHT_BROWN_WOOL, AbstractBlock.Settings.of(Material.WOOL)), ModItemGroup.MOD_BLOCKS);
-
-
+    public static final Block LIGHT_BROWN_STAINED_GLASS = registerBlock("light_brown_stained_glass", new GlassBlock(AbstractBlock.Settings.copy(Blocks.GLASS)), ModItemGroup.MOD_BLOCKS);
+    public static final Block LIGHT_BROWN_STAINED_GLASS_PANE = registerBlock("light_brown_stained_glass_pane", new ModStainedGlassPane(LIGHT_BROWN_WOOL, AbstractBlock.Settings.copy(Blocks.GLASS_PANE)), ModItemGroup.MOD_BLOCKS);
 
     private static Boolean never(BlockState state, BlockView world, BlockPos pos, EntityType<?> type) {
         return false;

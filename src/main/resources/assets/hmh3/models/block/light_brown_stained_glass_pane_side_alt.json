@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/template_glass_pane_side_alt",
+  "textures": {
+    "edge": "hmh3:block/light_brown_stained_glass_pane_top",
+    "pane": "hmh3:block/light_brown_stained_glass"
+  }
+}
