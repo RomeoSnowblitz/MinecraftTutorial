@@ -36,6 +36,8 @@ public class ModBlocks {
     public static final Block LIGHT_BROWN_CARPET = registerBlock("light_brown_carpet", new ModDyedCarpetBlock(LIGHT_BROWN_WOOL, AbstractBlock.Settings.of(Material.WOOL)), ModItemGroup.MOD_BLOCKS);
     public static final Block LIGHT_BROWN_STAINED_GLASS = registerBlock("light_brown_stained_glass", new GlassBlock(AbstractBlock.Settings.copy(Blocks.GLASS)), ModItemGroup.MOD_BLOCKS);
     public static final Block LIGHT_BROWN_STAINED_GLASS_PANE = registerBlock("light_brown_stained_glass_pane", new ModStainedGlassPane(LIGHT_BROWN_WOOL, AbstractBlock.Settings.copy(Blocks.GLASS_PANE)), ModItemGroup.MOD_BLOCKS);
+    public static final Block LIGHT_BROWN_CONCRETE = registerBlock("light_brown_concrete", new Block(AbstractBlock.Settings.copy(Blocks.BROWN_CONCRETE)), ModItemGroup.MOD_BLOCKS);
+    public static final Block LIGHT_BROWN_CONCRETE_POWDER = registerBlock("light_brown_concrete_powder", new ConcretePowderBlock(LIGHT_BROWN_CONCRETE, AbstractBlock.Settings.copy(Blocks.BROWN_CONCRETE_POWDER)), ModItemGroup.MOD_BLOCKS);
 
     private static Boolean never(BlockState state, BlockView world, BlockPos pos, EntityType<?> type) {
         return false;
