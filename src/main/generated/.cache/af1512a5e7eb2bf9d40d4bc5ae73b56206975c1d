@@ -1,10 +1,12 @@
-// 1.19.3	2023-03-04T04:37:16.4796167	hmh3/Block Loot Tables
-45819237793aa5f75c46c992f7b00164866fe94d data\hmh3\loot_tables\blocks\boom_block.json
+// 1.19.3	2023-03-05T00:48:52.1748615	hmh3/Block Loot Tables
 1381fef44c45b5029c367e6fa080ff658ed1c7e5 data\hmh3\loot_tables\blocks\xp_block.json
+45819237793aa5f75c46c992f7b00164866fe94d data\hmh3\loot_tables\blocks\boom_block.json
 5903456c143331c3ccd45595049b9d721ed6915b data\hmh3\loot_tables\blocks\light_brown_wool.json
+319941d795b08cbfb2f0186ac73ca61bf4c573fd data\hmh3\loot_tables\blocks\light_brown_terracotta.json
 e7109582f38f012a3ccbe843868e71e6ea629949 data\hmh3\loot_tables\blocks\toffee_flower.json
 02b9ef366835da18c451aa3c95eba38597a15d89 data\hmh3\loot_tables\blocks\light_brown_concrete.json
 f722e03e9eccdf58cc2553185eec0357cbf8b37b data\hmh3\loot_tables\blocks\light_brown_carpet.json
+ab5b96376801a11827d80b3325aa0c15bd0f9476 data\hmh3\loot_tables\blocks\light_brown_glazed_terracotta.json
 69a270dc7462635684c4f31a6533ded84b635b33 data\hmh3\loot_tables\blocks\light_brown_concrete_powder.json
 77626814b1b2692001beb2fe1267d426d09ff000 data\hmh3\loot_tables\blocks\sculk_sponge.json
 d4baf96aad59f777aab40bbeff360203b24c62f2 data\hmh3\loot_tables\blocks\cement.json

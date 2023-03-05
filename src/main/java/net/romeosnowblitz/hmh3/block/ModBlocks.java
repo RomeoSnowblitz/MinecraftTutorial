@@ -38,6 +38,8 @@ public class ModBlocks {
     public static final Block LIGHT_BROWN_STAINED_GLASS_PANE = registerBlock("light_brown_stained_glass_pane", new ModStainedGlassPane(LIGHT_BROWN_WOOL, AbstractBlock.Settings.copy(Blocks.GLASS_PANE)), ModItemGroup.MOD_BLOCKS);
     public static final Block LIGHT_BROWN_CONCRETE = registerBlock("light_brown_concrete", new Block(AbstractBlock.Settings.copy(Blocks.BROWN_CONCRETE)), ModItemGroup.MOD_BLOCKS);
     public static final Block LIGHT_BROWN_CONCRETE_POWDER = registerBlock("light_brown_concrete_powder", new ConcretePowderBlock(LIGHT_BROWN_CONCRETE, AbstractBlock.Settings.copy(Blocks.BROWN_CONCRETE_POWDER)), ModItemGroup.MOD_BLOCKS);
+    public static final Block LIGHT_BROWN_TERRACOTTA = registerBlock("light_brown_terracotta", new Block(AbstractBlock.Settings.copy(Blocks.TERRACOTTA)), ModItemGroup.MOD_BLOCKS);
+    public static final Block LIGHT_BROWN_GLAZED_TERRACOTTA = registerBlock("light_brown_glazed_terracotta", new GlazedTerracottaBlock(AbstractBlock.Settings.copy(Blocks.BROWN_GLAZED_TERRACOTTA)), ModItemGroup.MOD_BLOCKS);
 
     private static Boolean never(BlockState state, BlockView world, BlockPos pos, EntityType<?> type) {
         return false;

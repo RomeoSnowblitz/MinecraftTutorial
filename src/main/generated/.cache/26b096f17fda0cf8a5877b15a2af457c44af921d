@@ -1,4 +1,4 @@
-// 1.19.3	2023-03-04T04:37:16.4777234	hmh3/Model Definitions
+// 1.19.3	2023-03-05T00:48:52.1738613	hmh3/Model Definitions
 d40e1cc0af08c166acbc2f0dee55d86da6fbd386 assets\hmh3\models\item\cement.json
 b8795fb881d0cb339c980ef6fe120057aaae5c9e assets\hmh3\blockstates\light_brown_concrete_powder.json
 4aa16164d7490022feeafc7e1c0dbeb929b1f97b assets\hmh3\models\block\xp_block.json
@@ -12,6 +12,7 @@ adf63a924fce3fb2200026e60aacc76004fef5aa assets\hmh3\blockstates\light_brown_woo
 a2ae3c2da6babb0e834f2152535b813ebf5de2de assets\hmh3\blockstates\light_brown_stained_glass.json
 f0a1e541027efe671bfed8c694c0fecd29fc316d assets\hmh3\blockstates\xp_block.json
 93d243206cc5480a271bbcbfa09026f6d3ea5778 assets\hmh3\models\item\light_brown_concrete.json
+c716f264edadcf76c97b4e1f81db7a98bd13d1eb assets\hmh3\blockstates\light_brown_terracotta.json
 258d403beb13a888f7112cd3ec34c93f95bc1d18 assets\hmh3\models\item\xp_block.json
 3aaf2bb88483b359bb2641e10a1d64f3945b13f5 assets\hmh3\models\item\light_brown_concrete_powder.json
 835446d083f02f2b1d64be552d7b30e8e982e224 assets\hmh3\models\item\sculk_hoe.json
@@ -25,6 +26,7 @@ ccf1415bc2a5c6637ad0d7037a3db624c239c140 assets\hmh3\models\item\brick_shovel.js
 871a95d1d9a7db1c3e64b060bad9e2d6d168ac15 assets\hmh3\blockstates\sculk_sponge.json
 86556bed405d25d4b12ade379fbe8ce9aa783b9d assets\hmh3\models\item\sandy_carrot.json
 b0ef7fd87ca5b94e79319423c5b922ac32ba66a8 assets\hmh3\models\item\obsidian_pickaxe.json
+1ae941be949b2d4708cea001856e4fe3313faa18 assets\hmh3\models\item\light_brown_terracotta.json
 c265b533410baf0de60baafca1ea12b5dcb916d2 assets\hmh3\models\item\bleeding_heart.json
 0544ae9dcefba8635080a67671e92096b07a67a4 assets\hmh3\models\item\beating_stick.json
 d6b6f189aba92d52a8646162c30189ed4dc99fcd assets\hmh3\models\block\boom_block.json
@@ -35,4 +37,5 @@ d008afb2dee28bd06fd5c13c91846eec658f4ec0 assets\hmh3\models\item\prismarine_axe.
 e4b5c83d83051893a371f4565ae8a047dcc32b95 assets\hmh3\models\item\bagel.json
 6884d14d5f8d2740c69f8c6d306b164b73d53fc7 assets\hmh3\models\block\light_brown_concrete.json
 b6034fa8b9f542655dedb6483889e218d7590fce assets\hmh3\blockstates\cement.json
+375601f7f5af9e9e22ce20b820cc5cdcc4fd22c3 assets\hmh3\models\block\light_brown_terracotta.json
 c7686d3b7e97ad523c48fbff455319043b3df292 assets\hmh3\models\block\light_brown_stained_glass.json
