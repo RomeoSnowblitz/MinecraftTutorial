@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "hmh3:light_brown_candle"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

@@ -1,7 +1,5 @@
 {
   "values": [
-    "hmh3:vital_fluid_still",
-    "hmh3:vital_fluid_flowing",
     "minecraft:water",
     "minecraft:flowing_water"
   ]

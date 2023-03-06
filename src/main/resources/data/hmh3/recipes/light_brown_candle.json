@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:candle"
+    },
+    {
+      "item": "hmh3:light_brown_dye"
+    }
+  ],
+  "result": {
+    "item": "hmh3:light_brown_candle"
+  }
+}

@@ -35,11 +35,13 @@ public class ModBlocks {
     public static final Block LIGHT_BROWN_WOOL = registerBlock("light_brown_wool", new Block(AbstractBlock.Settings.of(Material.WOOL)), ModItemGroup.MOD_BLOCKS);
     public static final Block LIGHT_BROWN_CARPET = registerBlock("light_brown_carpet", new ModDyedCarpetBlock(LIGHT_BROWN_WOOL, AbstractBlock.Settings.of(Material.WOOL)), ModItemGroup.MOD_BLOCKS);
     public static final Block LIGHT_BROWN_STAINED_GLASS = registerBlock("light_brown_stained_glass", new GlassBlock(AbstractBlock.Settings.copy(Blocks.GLASS)), ModItemGroup.MOD_BLOCKS);
-    public static final Block LIGHT_BROWN_STAINED_GLASS_PANE = registerBlock("light_brown_stained_glass_pane", new ModStainedGlassPane(LIGHT_BROWN_WOOL, AbstractBlock.Settings.copy(Blocks.GLASS_PANE)), ModItemGroup.MOD_BLOCKS);
+    public static final Block LIGHT_BROWN_STAINED_GLASS_PANE = registerBlock("light_brown_stained_glass_pane", new ModStainedGlassPane(LIGHT_BROWN_STAINED_GLASS, AbstractBlock.Settings.copy(Blocks.GLASS_PANE)), ModItemGroup.MOD_BLOCKS);
     public static final Block LIGHT_BROWN_CONCRETE = registerBlock("light_brown_concrete", new Block(AbstractBlock.Settings.copy(Blocks.BROWN_CONCRETE)), ModItemGroup.MOD_BLOCKS);
     public static final Block LIGHT_BROWN_CONCRETE_POWDER = registerBlock("light_brown_concrete_powder", new ConcretePowderBlock(LIGHT_BROWN_CONCRETE, AbstractBlock.Settings.copy(Blocks.BROWN_CONCRETE_POWDER)), ModItemGroup.MOD_BLOCKS);
     public static final Block LIGHT_BROWN_TERRACOTTA = registerBlock("light_brown_terracotta", new Block(AbstractBlock.Settings.copy(Blocks.TERRACOTTA)), ModItemGroup.MOD_BLOCKS);
     public static final Block LIGHT_BROWN_GLAZED_TERRACOTTA = registerBlock("light_brown_glazed_terracotta", new GlazedTerracottaBlock(AbstractBlock.Settings.copy(Blocks.BROWN_GLAZED_TERRACOTTA)), ModItemGroup.MOD_BLOCKS);
+    public static final Block LIGHT_BROWN_CANDLE = registerBlock("light_brown_candle", new CandleBlock(AbstractBlock.Settings.copy(Blocks.CANDLE)), ModItemGroup.MOD_BLOCKS);
+    public static final Block LIGHT_BROWN_CANDLE_CAKE = registerBlock("light_brown_candle_cake", new CandleCakeBlock(LIGHT_BROWN_CANDLE, AbstractBlock.Settings.copy(Blocks.CANDLE_CAKE)), ModItemGroup.MOD_BLOCKS);
 
     private static Boolean never(BlockState state, BlockView world, BlockPos pos, EntityType<?> type) {
         return false;

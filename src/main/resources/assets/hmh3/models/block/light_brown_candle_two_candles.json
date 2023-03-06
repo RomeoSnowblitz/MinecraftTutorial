@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/template_two_candles",
+  "textures": {
+    "all": "hmh3:block/light_brown_candle",
+    "particle": "minecraft:block/brown_candle"
+  }
+}
