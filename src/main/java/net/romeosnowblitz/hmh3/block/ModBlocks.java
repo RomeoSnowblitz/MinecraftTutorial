@@ -30,7 +30,6 @@ public class ModBlocks {
     public static final Block SANDLAND = registerBlock("sandland", new SandLand(AbstractBlock.Settings.of(Material.SOIL).ticksRandomly()), ModItemGroup.MOD_BLOCKS);
     public static final Block SANDY_CARROT_BLOCK = registerBlock("sandy_carrot_block", new SandyCarrotBlock(AbstractBlock.Settings.of(Material.PLANT).noCollision().ticksRandomly().breakInstantly().sounds(BlockSoundGroup.CROP)), ModItemGroup.MOD_BLOCKS);
     public static final Block VITAL_FLUID_BLOCK = registerBlockWithoutBlockItem("vital_fluid_block", new ModFluidBlock(ModFluids.VITAL_FLUID_STILL, FabricBlockSettings.of(Material.WATER).noCollision().nonOpaque().dropsNothing()), ModItemGroup.MOD_BLOCKS);
-
     public static final Block TOFFEE_FLOWER = registerBlock("toffee_flower", new ToffeeRoseBlock(StatusEffects.SATURATION, 7, AbstractBlock.Settings.of(Material.PLANT).nonOpaque().noCollision().breakInstantly().sounds(BlockSoundGroup.GRASS).offsetType(AbstractBlock.OffsetType.XZ)), ModItemGroup.MOD_BLOCKS);
     public static final Block LIGHT_BROWN_WOOL = registerBlock("light_brown_wool", new Block(AbstractBlock.Settings.of(Material.WOOL)), ModItemGroup.MOD_BLOCKS);
     public static final Block LIGHT_BROWN_CARPET = registerBlock("light_brown_carpet", new ModDyedCarpetBlock(LIGHT_BROWN_WOOL, AbstractBlock.Settings.of(Material.WOOL)), ModItemGroup.MOD_BLOCKS);
@@ -42,6 +41,9 @@ public class ModBlocks {
     public static final Block LIGHT_BROWN_GLAZED_TERRACOTTA = registerBlock("light_brown_glazed_terracotta", new GlazedTerracottaBlock(AbstractBlock.Settings.copy(Blocks.BROWN_GLAZED_TERRACOTTA)), ModItemGroup.MOD_BLOCKS);
     public static final Block LIGHT_BROWN_CANDLE = registerBlock("light_brown_candle", new CandleBlock(AbstractBlock.Settings.copy(Blocks.CANDLE)), ModItemGroup.MOD_BLOCKS);
     public static final Block LIGHT_BROWN_CANDLE_CAKE = registerBlock("light_brown_candle_cake", new CandleCakeBlock(LIGHT_BROWN_CANDLE, AbstractBlock.Settings.copy(Blocks.CANDLE_CAKE)), ModItemGroup.MOD_BLOCKS);
+
+    public static final Block DARK_LOG = registerBlock("dark_log", new PillarBlock(AbstractBlock.Settings.of(Material.WOOD)), ModItemGroup.MOD_BLOCKS);
+    public static final Block DARK_LEAVES = registerBlock("dark_leaves", new LeavesBlock(AbstractBlock.Settings.of(Material.LEAVES).nonOpaque().suffocates(ModBlocks::never).blockVision(ModBlocks::never)), ModItemGroup.MOD_BLOCKS);
 
     private static Boolean never(BlockState state, BlockView world, BlockPos pos, EntityType<?> type) {
         return false;
