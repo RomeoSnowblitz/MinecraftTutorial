@@ -17,6 +17,7 @@ public class Hmh3Client implements ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.BLEEDING_HEART_BUSH, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.SANDY_CARROT_BLOCK, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.TOFFEE_FLOWER, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.DARK_LEAVES, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.LIGHT_BROWN_STAINED_GLASS, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.LIGHT_BROWN_STAINED_GLASS_PANE, RenderLayer.getTranslucent());
 

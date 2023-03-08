@@ -22,5 +22,6 @@ public class ModLootTableGenerator extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.LIGHT_BROWN_CONCRETE_POWDER);
         addDrop(ModBlocks.LIGHT_BROWN_TERRACOTTA);
         addDrop(ModBlocks.LIGHT_BROWN_GLAZED_TERRACOTTA);
+        addDrop(ModBlocks.DARK_LOG);
     }
 }

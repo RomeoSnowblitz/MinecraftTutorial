@@ -22,6 +22,10 @@
         "feature": "minecraft:dark_oak_checked"
       },
       {
+        "chance": 0.6666667,
+        "feature": "minecraft:black_oak"
+      },
+      {
         "chance": 0.2,
         "feature": "minecraft:birch_checked"
       },
