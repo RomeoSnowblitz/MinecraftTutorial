@@ -4,6 +4,7 @@ import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.*;
+import net.minecraft.block.sapling.SaplingGenerator;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.item.BlockItem;
@@ -11,14 +12,19 @@ import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
+import net.minecraft.registry.RegistryKey;
 import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.intprovider.UniformIntProvider;
+import net.minecraft.util.math.random.Random;
 import net.minecraft.world.BlockView;
+import net.minecraft.world.gen.feature.ConfiguredFeature;
 import net.romeosnowblitz.hmh3.Hmh3;
 import net.romeosnowblitz.hmh3.fluid.ModFluids;
 import net.romeosnowblitz.hmh3.item.ModItemGroup;
+import net.romeosnowblitz.hmh3.world.feature.ModConfiguredFeatures;
+import org.jetbrains.annotations.Nullable;
 
 public class ModBlocks {
 
@@ -43,7 +49,10 @@ public class ModBlocks {
     public static final Block LIGHT_BROWN_CANDLE_CAKE = registerBlock("light_brown_candle_cake", new CandleCakeBlock(LIGHT_BROWN_CANDLE, AbstractBlock.Settings.copy(Blocks.CANDLE_CAKE)), ModItemGroup.MOD_BLOCKS);
 
     public static final Block DARK_LOG = registerBlock("dark_log", new PillarBlock(AbstractBlock.Settings.of(Material.WOOD)), ModItemGroup.MOD_BLOCKS);
-    public static final Block DARK_LEAVES = registerBlock("dark_leaves", new LeavesBlock(AbstractBlock.Settings.of(Material.LEAVES).nonOpaque().suffocates(ModBlocks::never).blockVision(ModBlocks::never)), ModItemGroup.MOD_BLOCKS);
+    public static final Block DARK_LEAVES = registerBlock("dark_leaves", new LeavesBlock(AbstractBlock.Settings.copy(Blocks.OAK_LEAVES).hardness(1.0f).nonOpaque().suffocates(ModBlocks::never).blockVision(ModBlocks::never)), ModItemGroup.MOD_BLOCKS);
+    public static final Block DARK_SAPLING = registerBlock("dark_sapling", new SaplingBlock(new SaplingGenerator() {@Nullable @Override protected RegistryKey<ConfiguredFeature<?, ?>>
+        getTreeFeature(Random random, boolean bees) {return ModConfiguredFeatures.DARK_KEY;}}, FabricBlockSettings.copy(Blocks.OAK_SAPLING)), ModItemGroup.MOD_BLOCKS);
+
 
     private static Boolean never(BlockState state, BlockView world, BlockPos pos, EntityType<?> type) {
         return false;
