@@ -1,4 +1,4 @@
-package net.romeosnowblitz.hmh3.block;
+package net.romeosnowblitz.hmh3.block.custom;
 
 import com.google.common.collect.Lists;
 import net.minecraft.block.*;
@@ -6,6 +6,7 @@ import net.minecraft.util.Pair;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.Direction;
 import net.minecraft.world.World;
+import net.romeosnowblitz.hmh3.block.ModBlocks;
 
 import java.util.LinkedList;
 

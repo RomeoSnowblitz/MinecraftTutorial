@@ -1,7 +1,8 @@
-package net.romeosnowblitz.hmh3.block;
+package net.romeosnowblitz.hmh3.block.custom.color;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.PaneBlock;
+import net.romeosnowblitz.hmh3.block.custom.color.ModStainable;
 
 public class ModStainedGlassPane extends PaneBlock implements ModStainable {
     private final Block color;

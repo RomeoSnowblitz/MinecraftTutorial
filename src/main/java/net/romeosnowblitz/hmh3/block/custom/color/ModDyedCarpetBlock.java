@@ -1,4 +1,4 @@
-package net.romeosnowblitz.hmh3.block;
+package net.romeosnowblitz.hmh3.block.custom.color;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.CarpetBlock;

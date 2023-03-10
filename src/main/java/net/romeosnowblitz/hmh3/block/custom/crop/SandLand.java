@@ -1,4 +1,4 @@
-package net.romeosnowblitz.hmh3.block;
+package net.romeosnowblitz.hmh3.block.custom.crop;
 
 import net.minecraft.block.*;
 import net.minecraft.entity.Entity;

@@ -1,4 +1,4 @@
-package net.romeosnowblitz.hmh3.block;
+package net.romeosnowblitz.hmh3.block.custom.crop;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
@@ -7,6 +7,7 @@ import net.minecraft.item.ItemConvertible;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.shape.VoxelShape;
 import net.minecraft.world.BlockView;
+import net.romeosnowblitz.hmh3.block.custom.crop.ModCropBlock;
 import net.romeosnowblitz.hmh3.item.ModItems;
 
 public class SandyCarrotBlock extends ModCropBlock {

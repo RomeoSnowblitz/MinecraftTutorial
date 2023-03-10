@@ -21,6 +21,13 @@ import net.minecraft.util.math.random.Random;
 import net.minecraft.world.BlockView;
 import net.minecraft.world.gen.feature.ConfiguredFeature;
 import net.romeosnowblitz.hmh3.Hmh3;
+import net.romeosnowblitz.hmh3.block.custom.*;
+import net.romeosnowblitz.hmh3.block.custom.color.ModDyedCarpetBlock;
+import net.romeosnowblitz.hmh3.block.custom.color.ModStainedGlassPane;
+import net.romeosnowblitz.hmh3.block.custom.color.ToffeeRoseBlock;
+import net.romeosnowblitz.hmh3.block.custom.crop.BleedingHeartBush;
+import net.romeosnowblitz.hmh3.block.custom.crop.SandLand;
+import net.romeosnowblitz.hmh3.block.custom.crop.SandyCarrotBlock;
 import net.romeosnowblitz.hmh3.fluid.ModFluids;
 import net.romeosnowblitz.hmh3.item.ModItemGroup;
 import net.romeosnowblitz.hmh3.world.feature.ModConfiguredFeatures;
@@ -48,10 +55,13 @@ public class ModBlocks {
     public static final Block LIGHT_BROWN_CANDLE = registerBlock("light_brown_candle", new CandleBlock(AbstractBlock.Settings.copy(Blocks.CANDLE)), ModItemGroup.MOD_BLOCKS);
     public static final Block LIGHT_BROWN_CANDLE_CAKE = registerBlock("light_brown_candle_cake", new CandleCakeBlock(LIGHT_BROWN_CANDLE, AbstractBlock.Settings.copy(Blocks.CANDLE_CAKE)), ModItemGroup.MOD_BLOCKS);
 
-    public static final Block DARK_LOG = registerBlock("dark_log", new PillarBlock(AbstractBlock.Settings.of(Material.WOOD)), ModItemGroup.MOD_BLOCKS);
-    public static final Block DARK_LEAVES = registerBlock("dark_leaves", new LeavesBlock(AbstractBlock.Settings.copy(Blocks.OAK_LEAVES).hardness(1.0f).nonOpaque().suffocates(ModBlocks::never).blockVision(ModBlocks::never)), ModItemGroup.MOD_BLOCKS);
+    public static final Block DARK_LOG = registerBlock("dark_log", new PillarBlock(AbstractBlock.Settings.of(Material.WOOD).strength(2.0f).sounds(BlockSoundGroup.WOOD)), ModItemGroup.MOD_BLOCKS);
+    public static final Block DARK_LEAVES = registerBlock("dark_leaves", new LeavesBlock(AbstractBlock.Settings.of(Material.LEAVES).strength(0.2f).sounds(BlockSoundGroup.GRASS).nonOpaque().suffocates(ModBlocks::never).blockVision(ModBlocks::never)), ModItemGroup.MOD_BLOCKS);
     public static final Block DARK_SAPLING = registerBlock("dark_sapling", new SaplingBlock(new SaplingGenerator() {@Nullable @Override protected RegistryKey<ConfiguredFeature<?, ?>>
-        getTreeFeature(Random random, boolean bees) {return ModConfiguredFeatures.DARK_KEY;}}, FabricBlockSettings.copy(Blocks.OAK_SAPLING)), ModItemGroup.MOD_BLOCKS);
+        getTreeFeature(Random random, boolean bees) {return ModConfiguredFeatures.DARK_KEY;}}, FabricBlockSettings.copy(Blocks.OAK_SAPLING).sounds(BlockSoundGroup.GRASS)), ModItemGroup.MOD_BLOCKS);
+    public static final Block DARK_WOOD = registerBlock("dark_wood", new PillarBlock(AbstractBlock.Settings.of(Material.WOOD).strength(2.0f).sounds(BlockSoundGroup.WOOD)), ModItemGroup.MOD_BLOCKS);
+    public static final Block DARK_PLANKS = registerBlock("dark_planks", new Block(AbstractBlock.Settings.of(Material.WOOD).strength(2.0f, 3.0f).sounds(BlockSoundGroup.WOOD)), ModItemGroup.MOD_BLOCKS);
+
 
 
     private static Boolean never(BlockState state, BlockView world, BlockPos pos, EntityType<?> type) {

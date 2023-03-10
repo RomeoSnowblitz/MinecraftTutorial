@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "hmh3:dark_logs"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "item": "hmh3:dark_planks"
+  }
+}

@@ -1,4 +1,4 @@
-package net.romeosnowblitz.hmh3.block;
+package net.romeosnowblitz.hmh3.block.custom.crop;
 
 import net.minecraft.block.*;
 import net.minecraft.entity.Entity;
@@ -19,6 +19,8 @@ import net.minecraft.world.BlockView;
 import net.minecraft.world.GameRules;
 import net.minecraft.world.World;
 import net.minecraft.world.WorldView;
+import net.romeosnowblitz.hmh3.block.ModBlocks;
+import net.romeosnowblitz.hmh3.block.custom.crop.SandLand;
 
 public class ModCropBlock extends PlantBlock implements Fertilizable {
     public static final int MAX_AGE = 7;

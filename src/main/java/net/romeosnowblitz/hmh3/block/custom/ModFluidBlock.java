@@ -1,4 +1,4 @@
-package net.romeosnowblitz.hmh3.block;
+package net.romeosnowblitz.hmh3.block.custom;
 
 import net.minecraft.block.BlockState;
 import net.minecraft.block.FluidBlock;
