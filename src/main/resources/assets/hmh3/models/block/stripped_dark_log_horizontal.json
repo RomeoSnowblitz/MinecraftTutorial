@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column_horizontal",
+  "textures": {
+    "end": "hmh3:block/stripped_dark_log_top",
+    "side": "hmh3:block/stripped_dark_log"
+  }
+}

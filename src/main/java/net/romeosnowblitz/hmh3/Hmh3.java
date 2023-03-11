@@ -19,6 +19,7 @@ public class Hmh3 implements ModInitializer {
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 		ModPaintings.registerPaintings();
-		ModRegistries.ModStrippables();
+		ModRegistries.ModStuffs();
+
 	}
 }

@@ -40,5 +40,7 @@
   "block.hmh3.dark_leaves": "Dark Leaves",
   "block.hmh3.dark_sapling": "Dark Sapling",
   "block.hmh3.dark_wood": "Dark Wood",
-  "block.hmh3.dark_planks": "Dark Planks"
+  "block.hmh3.dark_planks": "Dark Planks",
+  "block.hmh3.stripped_dark_log": "Stripped Dark Log",
+  "block.hmh3.stripped_dark_wood": "Stripped Dark Wood"
 }

@@ -61,7 +61,8 @@ public class ModBlocks {
         getTreeFeature(Random random, boolean bees) {return ModConfiguredFeatures.DARK_KEY;}}, FabricBlockSettings.copy(Blocks.OAK_SAPLING).sounds(BlockSoundGroup.GRASS)), ModItemGroup.MOD_BLOCKS);
     public static final Block DARK_WOOD = registerBlock("dark_wood", new PillarBlock(AbstractBlock.Settings.of(Material.WOOD).strength(2.0f).sounds(BlockSoundGroup.WOOD)), ModItemGroup.MOD_BLOCKS);
     public static final Block DARK_PLANKS = registerBlock("dark_planks", new Block(AbstractBlock.Settings.of(Material.WOOD).strength(2.0f, 3.0f).sounds(BlockSoundGroup.WOOD)), ModItemGroup.MOD_BLOCKS);
-
+    public static final Block STRIPPED_DARK_LOG = registerBlock("stripped_dark_log", new PillarBlock(AbstractBlock.Settings.of(Material.WOOD).strength(2.0f).sounds(BlockSoundGroup.WOOD)), ModItemGroup.MOD_BLOCKS);
+    public static final Block STRIPPED_DARK_WOOD = registerBlock("stripped_dark_wood", new PillarBlock(AbstractBlock.Settings.of(Material.WOOD).strength(2.0f).sounds(BlockSoundGroup.WOOD)), ModItemGroup.MOD_BLOCKS);
 
 
     private static Boolean never(BlockState state, BlockView world, BlockPos pos, EntityType<?> type) {

@@ -26,5 +26,7 @@ public class ModLootTableGenerator extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.DARK_SAPLING);
         addDrop(ModBlocks.DARK_WOOD);
         addDrop(ModBlocks.DARK_PLANKS);
+        addDrop(ModBlocks.STRIPPED_DARK_LOG);
+        addDrop(ModBlocks.STRIPPED_DARK_WOOD);
     }
 }
