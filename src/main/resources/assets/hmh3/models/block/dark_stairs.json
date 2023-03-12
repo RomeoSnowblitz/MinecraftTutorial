@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "hmh3:block/dark_planks",
+    "side": "hmh3:block/dark_planks",
+    "top": "hmh3:block/dark_planks"
+  }
+}

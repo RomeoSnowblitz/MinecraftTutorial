@@ -63,6 +63,8 @@ public class ModBlocks {
     public static final Block DARK_PLANKS = registerBlock("dark_planks", new Block(AbstractBlock.Settings.of(Material.WOOD).strength(2.0f, 3.0f).sounds(BlockSoundGroup.WOOD)), ModItemGroup.MOD_BLOCKS);
     public static final Block STRIPPED_DARK_LOG = registerBlock("stripped_dark_log", new PillarBlock(AbstractBlock.Settings.of(Material.WOOD).strength(2.0f).sounds(BlockSoundGroup.WOOD)), ModItemGroup.MOD_BLOCKS);
     public static final Block STRIPPED_DARK_WOOD = registerBlock("stripped_dark_wood", new PillarBlock(AbstractBlock.Settings.of(Material.WOOD).strength(2.0f).sounds(BlockSoundGroup.WOOD)), ModItemGroup.MOD_BLOCKS);
+    public static final Block DARK_SLAB = registerBlock("dark_slab", new SlabBlock(AbstractBlock.Settings.of(Material.WOOD).strength(2.0f, 3.0f).sounds(BlockSoundGroup.WOOD)), ModItemGroup.MOD_BLOCKS);
+    public static final Block DARK_STAIRS = registerBlock("dark_stairs", new StairsBlock(DARK_PLANKS.getDefaultState(),AbstractBlock.Settings.of(Material.WOOD).strength(2.0f, 3.0f).sounds(BlockSoundGroup.WOOD)), ModItemGroup.MOD_BLOCKS);
 
 
     private static Boolean never(BlockState state, BlockView world, BlockPos pos, EntityType<?> type) {

@@ -1,6 +1,7 @@
-// 1.19.3	2023-03-11T00:46:53.8936147	hmh3/Block Loot Tables
+// 1.19.3	2023-03-12T14:01:47.1707158	hmh3/Block Loot Tables
 1381fef44c45b5029c367e6fa080ff658ed1c7e5 data\hmh3\loot_tables\blocks\xp_block.json
 265ac2fac039c5b94b9f2dbfc288502cece5559e data\hmh3\loot_tables\blocks\stripped_dark_wood.json
+4c292e6cb5b3deaa6da146823d5fceb52557ba04 data\hmh3\loot_tables\blocks\dark_stairs.json
 e7109582f38f012a3ccbe843868e71e6ea629949 data\hmh3\loot_tables\blocks\toffee_flower.json
 02b9ef366835da18c451aa3c95eba38597a15d89 data\hmh3\loot_tables\blocks\light_brown_concrete.json
 ab5b96376801a11827d80b3325aa0c15bd0f9476 data\hmh3\loot_tables\blocks\light_brown_glazed_terracotta.json

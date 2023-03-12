@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "hmh3:block/dark_slab"
+    },
+    "type=double": {
+      "model": "hmh3:block/dark_planks"
+    },
+    "type=top": {
+      "model": "hmh3:block/dark_slab_top"
+    }
+  }
+}
