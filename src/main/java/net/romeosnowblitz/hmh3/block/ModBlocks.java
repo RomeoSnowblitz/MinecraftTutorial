@@ -14,6 +14,7 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.registry.RegistryKey;
 import net.minecraft.sound.BlockSoundGroup;
+import net.minecraft.sound.SoundEvents;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.intprovider.UniformIntProvider;
@@ -65,6 +66,8 @@ public class ModBlocks {
     public static final Block STRIPPED_DARK_WOOD = registerBlock("stripped_dark_wood", new PillarBlock(AbstractBlock.Settings.of(Material.WOOD).strength(2.0f).sounds(BlockSoundGroup.WOOD)), ModItemGroup.MOD_BLOCKS);
     public static final Block DARK_SLAB = registerBlock("dark_slab", new SlabBlock(AbstractBlock.Settings.of(Material.WOOD).strength(2.0f, 3.0f).sounds(BlockSoundGroup.WOOD)), ModItemGroup.MOD_BLOCKS);
     public static final Block DARK_STAIRS = registerBlock("dark_stairs", new StairsBlock(DARK_PLANKS.getDefaultState(),AbstractBlock.Settings.of(Material.WOOD).strength(2.0f, 3.0f).sounds(BlockSoundGroup.WOOD)), ModItemGroup.MOD_BLOCKS);
+    public static final Block DARK_DOOR = registerBlock("dark_door", new DoorBlock(AbstractBlock.Settings.of(Material.WOOD, DARK_PLANKS.getDefaultMapColor()).strength(3.0f).sounds(BlockSoundGroup.WOOD).nonOpaque(), SoundEvents.BLOCK_WOODEN_DOOR_CLOSE, SoundEvents.BLOCK_WOODEN_DOOR_OPEN), ModItemGroup.MOD_BLOCKS);
+    public static final Block DARK_TRAPDOOR = registerBlock("dark_trapdoor", new TrapdoorBlock(AbstractBlock.Settings.of(Material.WOOD, DARK_PLANKS.getDefaultMapColor()).strength(3.0f).sounds(BlockSoundGroup.WOOD).nonOpaque(), SoundEvents.BLOCK_WOODEN_DOOR_CLOSE, SoundEvents.BLOCK_WOODEN_DOOR_OPEN), ModItemGroup.MOD_BLOCKS);
 
 
     private static Boolean never(BlockState state, BlockView world, BlockPos pos, EntityType<?> type) {

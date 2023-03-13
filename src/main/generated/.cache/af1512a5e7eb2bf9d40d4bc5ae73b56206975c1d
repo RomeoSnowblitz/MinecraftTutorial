@@ -1,16 +1,17 @@
-// 1.19.3	2023-03-12T14:01:47.1707158	hmh3/Block Loot Tables
+// 1.19.3	2023-03-12T23:20:46.7037415	hmh3/Block Loot Tables
 1381fef44c45b5029c367e6fa080ff658ed1c7e5 data\hmh3\loot_tables\blocks\xp_block.json
 265ac2fac039c5b94b9f2dbfc288502cece5559e data\hmh3\loot_tables\blocks\stripped_dark_wood.json
 4c292e6cb5b3deaa6da146823d5fceb52557ba04 data\hmh3\loot_tables\blocks\dark_stairs.json
 e7109582f38f012a3ccbe843868e71e6ea629949 data\hmh3\loot_tables\blocks\toffee_flower.json
 02b9ef366835da18c451aa3c95eba38597a15d89 data\hmh3\loot_tables\blocks\light_brown_concrete.json
 ab5b96376801a11827d80b3325aa0c15bd0f9476 data\hmh3\loot_tables\blocks\light_brown_glazed_terracotta.json
+23da304a64ac73ddafc68d52a177aa6126d3b7ae data\hmh3\loot_tables\blocks\dark_trapdoor.json
 89415727450e3e6fc34d0a26fb0195421c9829ee data\hmh3\loot_tables\blocks\dark_planks.json
 45819237793aa5f75c46c992f7b00164866fe94d data\hmh3\loot_tables\blocks\boom_block.json
 e5797017c232f565bfe29f7a50ecbfa2340d7f18 data\hmh3\loot_tables\blocks\dark_log.json
 5903456c143331c3ccd45595049b9d721ed6915b data\hmh3\loot_tables\blocks\light_brown_wool.json
-7642e1d064fce82f34d87e1563100f808f8fd6b1 data\hmh3\loot_tables\blocks\dark_sapling.json
 319941d795b08cbfb2f0186ac73ca61bf4c573fd data\hmh3\loot_tables\blocks\light_brown_terracotta.json
+7642e1d064fce82f34d87e1563100f808f8fd6b1 data\hmh3\loot_tables\blocks\dark_sapling.json
 9c2346675cfa71ce7061769ac1c0f7efa43cc4ec data\hmh3\loot_tables\blocks\stripped_dark_log.json
 f722e03e9eccdf58cc2553185eec0357cbf8b37b data\hmh3\loot_tables\blocks\light_brown_carpet.json
 69a270dc7462635684c4f31a6533ded84b635b33 data\hmh3\loot_tables\blocks\light_brown_concrete_powder.json

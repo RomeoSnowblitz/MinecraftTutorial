@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_bottom_left",
+  "textures": {
+    "bottom": "hmh3:block/dark_door_bottom",
+    "top": "hmh3:block/dark_door_top"
+  }
+}

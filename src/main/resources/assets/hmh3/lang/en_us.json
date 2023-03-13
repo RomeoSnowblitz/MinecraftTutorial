@@ -44,5 +44,7 @@
   "block.hmh3.stripped_dark_log": "Stripped Dark Log",
   "block.hmh3.stripped_dark_wood": "Stripped Dark Wood",
   "block.hmh3.dark_slab": "Dark Slab",
-  "block.hmh3.dark_stairs": "Dark Stairs"
+  "block.hmh3.dark_stairs": "Dark Stairs",
+  "block.hmh3.dark_door": "Dark Door",
+  "block.hmh3.dark_trapdoor": "Dark Trapdoor"
 }
