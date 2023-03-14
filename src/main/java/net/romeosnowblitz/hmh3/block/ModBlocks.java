@@ -68,6 +68,8 @@ public class ModBlocks {
     public static final Block DARK_STAIRS = registerBlock("dark_stairs", new StairsBlock(DARK_PLANKS.getDefaultState(),AbstractBlock.Settings.of(Material.WOOD).strength(2.0f, 3.0f).sounds(BlockSoundGroup.WOOD)), ModItemGroup.MOD_BLOCKS);
     public static final Block DARK_DOOR = registerBlock("dark_door", new DoorBlock(AbstractBlock.Settings.of(Material.WOOD, DARK_PLANKS.getDefaultMapColor()).strength(3.0f).sounds(BlockSoundGroup.WOOD).nonOpaque(), SoundEvents.BLOCK_WOODEN_DOOR_CLOSE, SoundEvents.BLOCK_WOODEN_DOOR_OPEN), ModItemGroup.MOD_BLOCKS);
     public static final Block DARK_TRAPDOOR = registerBlock("dark_trapdoor", new TrapdoorBlock(AbstractBlock.Settings.of(Material.WOOD, DARK_PLANKS.getDefaultMapColor()).strength(3.0f).sounds(BlockSoundGroup.WOOD).nonOpaque(), SoundEvents.BLOCK_WOODEN_DOOR_CLOSE, SoundEvents.BLOCK_WOODEN_DOOR_OPEN), ModItemGroup.MOD_BLOCKS);
+    public static final Block DARK_BUTTON = registerBlock("dark_button", new ButtonBlock(AbstractBlock.Settings.of(Material.DECORATION).noCollision().strength(0.5f).sounds(BlockSoundGroup.WOOD), 30, true, SoundEvents.BLOCK_WOODEN_BUTTON_CLICK_OFF, SoundEvents.BLOCK_WOODEN_BUTTON_CLICK_ON), ModItemGroup.MOD_BLOCKS);
+    public static final Block DARK_PRESSURE_PLATE = registerBlock("dark_pressure_plate", new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING, AbstractBlock.Settings.of(Material.WOOD, DARK_PLANKS.getDefaultMapColor()).noCollision().strength(0.5f).sounds(BlockSoundGroup.WOOD), SoundEvents.BLOCK_WOODEN_PRESSURE_PLATE_CLICK_OFF, SoundEvents.BLOCK_WOODEN_PRESSURE_PLATE_CLICK_ON), ModItemGroup.MOD_BLOCKS);
 
 
     private static Boolean never(BlockState state, BlockView world, BlockPos pos, EntityType<?> type) {
