@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "hmh3:cement"
+  },
+  "result": "hmh3:cement_wall"
+}

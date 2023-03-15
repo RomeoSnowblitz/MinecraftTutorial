@@ -36,7 +36,7 @@ import org.jetbrains.annotations.Nullable;
 
 public class ModBlocks {
 
-    public static final Block CEMENT = registerBlock("cement", new Block(AbstractBlock.Settings.of(Material.SOIL).requiresTool().emissiveLighting(ModBlocks::always).luminance((state)->{return 15;})), ModItemGroup.MOD_BLOCKS);
+    public static final Block CEMENT = registerBlock("cement", new Block(AbstractBlock.Settings.of(Material.STONE).hardness(1.0f).requiresTool().emissiveLighting(ModBlocks::always).luminance((state)->{return 15;})), ModItemGroup.MOD_BLOCKS);
     public static final Block SCULK_SPONGE = registerBlock("sculk_sponge", new SculkSponge(AbstractBlock.Settings.of(Material.SPONGE)), ModItemGroup.MOD_BLOCKS);
     public static final Block XP_BLOCK = registerBlock("xp_block", new ExperienceDroppingBlock(AbstractBlock.Settings.of(Material.GLASS), UniformIntProvider.create(1, 1000)), ModItemGroup.MOD_BLOCKS);
     public static final Block BOOM_BLOCK = registerBlock("boom_block", new BoomBlock(AbstractBlock.Settings.of(Material.SOIL).noCollision().emissiveLighting(ModBlocks::always).luminance((state)->{return 15;})), ModItemGroup.MOD_BLOCKS);
@@ -70,6 +70,9 @@ public class ModBlocks {
     public static final Block DARK_TRAPDOOR = registerBlock("dark_trapdoor", new TrapdoorBlock(AbstractBlock.Settings.of(Material.WOOD, DARK_PLANKS.getDefaultMapColor()).strength(3.0f).sounds(BlockSoundGroup.WOOD).nonOpaque(), SoundEvents.BLOCK_WOODEN_DOOR_CLOSE, SoundEvents.BLOCK_WOODEN_DOOR_OPEN), ModItemGroup.MOD_BLOCKS);
     public static final Block DARK_BUTTON = registerBlock("dark_button", new ButtonBlock(AbstractBlock.Settings.of(Material.DECORATION).noCollision().strength(0.5f).sounds(BlockSoundGroup.WOOD), 30, true, SoundEvents.BLOCK_WOODEN_BUTTON_CLICK_OFF, SoundEvents.BLOCK_WOODEN_BUTTON_CLICK_ON), ModItemGroup.MOD_BLOCKS);
     public static final Block DARK_PRESSURE_PLATE = registerBlock("dark_pressure_plate", new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING, AbstractBlock.Settings.of(Material.WOOD, DARK_PLANKS.getDefaultMapColor()).noCollision().strength(0.5f).sounds(BlockSoundGroup.WOOD), SoundEvents.BLOCK_WOODEN_PRESSURE_PLATE_CLICK_OFF, SoundEvents.BLOCK_WOODEN_PRESSURE_PLATE_CLICK_ON), ModItemGroup.MOD_BLOCKS);
+    public static final Block DARK_FENCE = registerBlock("dark_fence", new FenceBlock(AbstractBlock.Settings.of(Material.WOOD, DARK_PLANKS.getDefaultMapColor()).strength(2.0f, 3.0f).sounds(BlockSoundGroup.WOOD)), ModItemGroup.MOD_BLOCKS);
+    public static final Block DARK_FENCE_GATE = registerBlock("dark_fence_gate", new FenceGateBlock(AbstractBlock.Settings.of(Material.WOOD, DARK_PLANKS.getDefaultMapColor()).strength(2.0f, 3.0f).sounds(BlockSoundGroup.WOOD), SoundEvents.BLOCK_FENCE_GATE_CLOSE, SoundEvents.BLOCK_FENCE_GATE_OPEN), ModItemGroup.MOD_BLOCKS);
+    public static final Block CEMENT_WALL = registerBlock("cement_wall", new WallBlock(AbstractBlock.Settings.copy(CEMENT)),ModItemGroup.MOD_BLOCKS);
 
 
     private static Boolean never(BlockState state, BlockView world, BlockPos pos, EntityType<?> type) {

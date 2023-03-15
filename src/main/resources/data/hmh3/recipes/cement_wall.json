@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "hmh3:cement"
+    }
+  },
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "result": {
+    "count": 6,
+    "item": "hmh3:cement_wall"
+  }
+}
