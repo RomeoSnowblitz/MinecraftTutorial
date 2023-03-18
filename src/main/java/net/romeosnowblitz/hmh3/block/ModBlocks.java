@@ -29,6 +29,9 @@ import net.romeosnowblitz.hmh3.block.custom.color.ToffeeRoseBlock;
 import net.romeosnowblitz.hmh3.block.custom.crop.BleedingHeartBush;
 import net.romeosnowblitz.hmh3.block.custom.crop.SandLand;
 import net.romeosnowblitz.hmh3.block.custom.crop.SandyCarrotBlock;
+import net.romeosnowblitz.hmh3.block.custom.piston.ModPistonBlock;
+import net.romeosnowblitz.hmh3.block.custom.piston.ModPistonExtensionBlock;
+import net.romeosnowblitz.hmh3.block.custom.piston.ModPistonHeadBlock;
 import net.romeosnowblitz.hmh3.fluid.ModFluids;
 import net.romeosnowblitz.hmh3.item.ModItemGroup;
 import net.romeosnowblitz.hmh3.world.feature.ModConfiguredFeatures;
@@ -55,7 +58,6 @@ public class ModBlocks {
     public static final Block LIGHT_BROWN_GLAZED_TERRACOTTA = registerBlock("light_brown_glazed_terracotta", new GlazedTerracottaBlock(AbstractBlock.Settings.copy(Blocks.BROWN_GLAZED_TERRACOTTA)), ModItemGroup.MOD_BLOCKS);
     public static final Block LIGHT_BROWN_CANDLE = registerBlock("light_brown_candle", new CandleBlock(AbstractBlock.Settings.copy(Blocks.CANDLE)), ModItemGroup.MOD_BLOCKS);
     public static final Block LIGHT_BROWN_CANDLE_CAKE = registerBlock("light_brown_candle_cake", new CandleCakeBlock(LIGHT_BROWN_CANDLE, AbstractBlock.Settings.copy(Blocks.CANDLE_CAKE)), ModItemGroup.MOD_BLOCKS);
-
     public static final Block DARK_LOG = registerBlock("dark_log", new PillarBlock(AbstractBlock.Settings.of(Material.WOOD).strength(2.0f).sounds(BlockSoundGroup.WOOD)), ModItemGroup.MOD_BLOCKS);
     public static final Block DARK_LEAVES = registerBlock("dark_leaves", new LeavesBlock(AbstractBlock.Settings.of(Material.LEAVES).strength(0.2f).sounds(BlockSoundGroup.GRASS).nonOpaque().suffocates(ModBlocks::never).blockVision(ModBlocks::never)), ModItemGroup.MOD_BLOCKS);
     public static final Block DARK_SAPLING = registerBlock("dark_sapling", new SaplingBlock(new SaplingGenerator() {@Nullable @Override protected RegistryKey<ConfiguredFeature<?, ?>>
@@ -73,7 +75,11 @@ public class ModBlocks {
     public static final Block DARK_FENCE = registerBlock("dark_fence", new FenceBlock(AbstractBlock.Settings.of(Material.WOOD, DARK_PLANKS.getDefaultMapColor()).strength(2.0f, 3.0f).sounds(BlockSoundGroup.WOOD)), ModItemGroup.MOD_BLOCKS);
     public static final Block DARK_FENCE_GATE = registerBlock("dark_fence_gate", new FenceGateBlock(AbstractBlock.Settings.of(Material.WOOD, DARK_PLANKS.getDefaultMapColor()).strength(2.0f, 3.0f).sounds(BlockSoundGroup.WOOD), SoundEvents.BLOCK_FENCE_GATE_CLOSE, SoundEvents.BLOCK_FENCE_GATE_OPEN), ModItemGroup.MOD_BLOCKS);
     public static final Block CEMENT_WALL = registerBlock("cement_wall", new WallBlock(AbstractBlock.Settings.copy(CEMENT)),ModItemGroup.MOD_BLOCKS);
+    public static final Block MAGMA_PISTON = registerBlock("magma_piston", ModBlocks.createPistonBlock(true), ModItemGroup.MOD_BLOCKS);
+    public static final Block MOD_PISTON_HEAD = registerBlock("mod_piston_head", new ModPistonHeadBlock(AbstractBlock.Settings.of(Material.PISTON).strength(1.5f).dropsNothing()), ModItemGroup.MOD_BLOCKS);
+    public static final Block MOD_MOVING_PISTON = registerBlock("mod_moving_piston", new ModPistonExtensionBlock(AbstractBlock.Settings.of(Material.PISTON).strength(-1.0f).dynamicBounds().dropsNothing().nonOpaque().solidBlock(ModBlocks::never).suffocates(ModBlocks::never).blockVision(ModBlocks::never)), ModItemGroup.MOD_BLOCKS);
 
+    
 
     private static Boolean never(BlockState state, BlockView world, BlockPos pos, EntityType<?> type) {
         return false;
@@ -89,6 +95,11 @@ public class ModBlocks {
 
     private static boolean never(BlockState state, BlockView world, BlockPos pos) {
         return false;
+    }
+
+    private static ModPistonBlock createPistonBlock(boolean magma) {
+        AbstractBlock.ContextPredicate contextPredicate = (state, world, pos) -> !state.get(ModPistonBlock.EXTENDED);
+        return new ModPistonBlock(magma, AbstractBlock.Settings.of(Material.PISTON).strength(1.5f).solidBlock(ModBlocks::never).suffocates(contextPredicate).blockVision(contextPredicate));
     }
 
     private static Block registerBlockWithoutBlockItem(String name, Block block, ItemGroup group){

@@ -1,5 +1,6 @@
-// 1.19.3	2023-03-15T01:48:22.3194885	hmh3/Block Loot Tables
+// 1.19.3	2023-03-17T00:38:44.8021102	hmh3/Block Loot Tables
 5a7d44c65eedd8815101767074034cdf5c8d5a5b data\hmh3\loot_tables\blocks\dark_fence.json
+fc73b0308772fa54e7e4fe8d5782c48ac758f0f6 data\hmh3\loot_tables\blocks\magma_piston.json
 4c292e6cb5b3deaa6da146823d5fceb52557ba04 data\hmh3\loot_tables\blocks\dark_stairs.json
 e7109582f38f012a3ccbe843868e71e6ea629949 data\hmh3\loot_tables\blocks\toffee_flower.json
 02b9ef366835da18c451aa3c95eba38597a15d89 data\hmh3\loot_tables\blocks\light_brown_concrete.json

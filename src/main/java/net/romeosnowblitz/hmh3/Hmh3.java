@@ -2,6 +2,7 @@ package net.romeosnowblitz.hmh3;
 
 import net.fabricmc.api.ModInitializer;
 import net.romeosnowblitz.hmh3.block.ModBlocks;
+import net.romeosnowblitz.hmh3.entity.ModBlockEntities;
 import net.romeosnowblitz.hmh3.item.ModItemGroup;
 import net.romeosnowblitz.hmh3.item.ModItems;
 import net.romeosnowblitz.hmh3.painting.ModPaintings;
@@ -20,6 +21,7 @@ public class Hmh3 implements ModInitializer {
 		ModBlocks.registerModBlocks();
 		ModPaintings.registerPaintings();
 		ModRegistries.ModStuffs();
+		ModBlockEntities.registerAllBlockEntities();
 
 	}
 }

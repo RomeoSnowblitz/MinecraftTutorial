@@ -1,0 +1,142 @@
+{
+  "variants": {
+    "facing=down,short=false,type=normal": {
+      "model": "minecraft:block/piston_head",
+      "x": 90
+    },
+    "facing=down,short=false,type=sticky": {
+      "model": "minecraft:block/piston_head_sticky",
+      "x": 90
+    },
+    "facing=down,short=false,type=magma": {
+      "model": "hmh3:block/piston_head_magma",
+      "x": 90
+    },
+    "facing=down,short=true,type=normal": {
+      "model": "minecraft:block/piston_head_short",
+      "x": 90
+    },
+    "facing=down,short=true,type=sticky": {
+      "model": "minecraft:block/piston_head_short_sticky",
+      "x": 90
+    },
+    "facing=down,short=true,type=magma": {
+      "model": "hmh3:block/piston_head_short_magma",
+      "x": 90
+    },
+    "facing=east,short=false,type=normal": {
+      "model": "minecraft:block/piston_head",
+      "y": 90
+    },
+    "facing=east,short=false,type=sticky": {
+      "model": "minecraft:block/piston_head_sticky",
+      "y": 90
+    },
+    "facing=east,short=false,type=magma": {
+      "model": "hmh3:block/piston_head_magma",
+      "y": 90
+    },
+    "facing=east,short=true,type=normal": {
+      "model": "minecraft:block/piston_head_short",
+      "y": 90
+    },
+    "facing=east,short=true,type=sticky": {
+      "model": "minecraft:block/piston_head_short_sticky",
+      "y": 90
+    },
+    "facing=east,short=true,type=magma": {
+      "model": "hmh3:block/piston_head_short_magma",
+      "y": 90
+    },
+    "facing=north,short=false,type=normal": {
+      "model": "minecraft:block/piston_head"
+    },
+    "facing=north,short=false,type=sticky": {
+      "model": "minecraft:block/piston_head_sticky"
+    },
+    "facing=north,short=false,type=magma": {
+      "model": "hmh3:block/piston_head_magma"
+    },
+    "facing=north,short=true,type=normal": {
+      "model": "minecraft:block/piston_head_short"
+    },
+    "facing=north,short=true,type=sticky": {
+      "model": "minecraft:block/piston_head_short_sticky"
+    },
+    "facing=north,short=true,type=magma": {
+      "model": "hmh3:block/piston_head_short_magma"
+    },
+    "facing=south,short=false,type=normal": {
+      "model": "minecraft:block/piston_head",
+      "y": 180
+    },
+    "facing=south,short=false,type=sticky": {
+      "model": "minecraft:block/piston_head_sticky",
+      "y": 180
+    },
+    "facing=south,short=false,type=magma": {
+      "model": "hmh3:block/piston_head_magma",
+      "y": 180
+    },
+    "facing=south,short=true,type=normal": {
+      "model": "minecraft:block/piston_head_short",
+      "y": 180
+    },
+    "facing=south,short=true,type=sticky": {
+      "model": "minecraft:block/piston_head_short_sticky",
+      "y": 180
+    },
+    "facing=south,short=true,type=magma": {
+      "model": "hmh3:block/piston_head_short_magma",
+      "y": 180
+    },
+    "facing=up,short=false,type=normal": {
+      "model": "minecraft:block/piston_head",
+      "x": 270
+    },
+    "facing=up,short=false,type=sticky": {
+      "model": "minecraft:block/piston_head_sticky",
+      "x": 270
+    },
+    "facing=up,short=false,type=magma": {
+      "model": "hmh3:block/piston_head_magma",
+      "x": 270
+    },
+    "facing=up,short=true,type=normal": {
+      "model": "minecraft:block/piston_head_short",
+      "x": 270
+    },
+    "facing=up,short=true,type=sticky": {
+      "model": "minecraft:block/piston_head_short_sticky",
+      "x": 270
+    },
+    "facing=up,short=true,type=magma": {
+      "model": "hmh3:block/piston_head_short_magma",
+      "x": 270
+    },
+    "facing=west,short=false,type=normal": {
+      "model": "minecraft:block/piston_head",
+      "y": 270
+    },
+    "facing=west,short=false,type=sticky": {
+      "model": "minecraft:block/piston_head_sticky",
+      "y": 270
+    },
+    "facing=west,short=false,type=magma": {
+      "model": "hmh3:block/piston_head_magma",
+      "y": 270
+    },
+    "facing=west,short=true,type=normal": {
+      "model": "minecraft:block/piston_head_short",
+      "y": 270
+    },
+    "facing=west,short=true,type=sticky": {
+      "model": "minecraft:block/piston_head_short_sticky",
+      "y": 270
+    },
+    "facing=west,short=true,type=magma": {
+      "model": "hmh3:block/piston_head_short_magma",
+      "y": 270
+    }
+  }
+}
