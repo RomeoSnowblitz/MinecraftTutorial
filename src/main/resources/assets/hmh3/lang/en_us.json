@@ -18,6 +18,19 @@
   "item.hmh3.nether_brick_boots": "Nether Brick Boots",
   "item.hmh3.light_brown_dye": "Light Brown Dye",
 
+  "item.minecraft.potion.effect.haste_potion": "Haste Potion",
+  "item.minecraft.splash_potion.effect.haste_potion": "Splash Potion of Haste",
+  "item.minecraft.lingering_potion.effect.haste_potion": "Lingering potion of Haste",
+  "item.minecraft.tipped_arrow.effect.haste_potion": "Arrow of Haste",
+  "item.minecraft.potion.effect.long_haste_potion": "Haste Potion",
+  "item.minecraft.splash_potion.effect.long_haste_potion": "Splash Potion of Haste",
+  "item.minecraft.lingering_potion.effect.long_haste_potion": "Lingering potion of Haste",
+  "item.minecraft.tipped_arrow.effect.long_haste_potion": "Arrow of Haste",
+  "item.minecraft.potion.effect.strong_haste_potion": "Haste Potion",
+  "item.minecraft.splash_potion.effect.strong_haste_potion": "Splash Potion of Haste",
+  "item.minecraft.lingering_potion.effect.strong_haste_potion": "Lingering potion of Haste",
+  "item.minecraft.tipped_arrow.effect.strong_haste_potion": "Arrow of Haste",
+
   "block.hmh3.cement": "Cement",
   "block.hmh3.sculk_sponge": "Sculk Sponge",
   "block.hmh3.xp_block": "Experience Block",
@@ -53,4 +66,7 @@
   "block.hmh3.dark_fence_gate": "Dark Fence Gate",
   "block.hmh3.cement_wall": "Cement Wall",
   "block.hmh3.magma_piston": "Magma Piston"
+
+
+
 }
