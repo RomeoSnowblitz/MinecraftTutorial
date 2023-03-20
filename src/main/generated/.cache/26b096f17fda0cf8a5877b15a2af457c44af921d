@@ -1,4 +1,4 @@
-// 1.19.3	2023-03-17T00:38:44.8005978	hmh3/Model Definitions
+// 1.19.3	2023-03-20T01:23:38.2294435	hmh3/Model Definitions
 b8795fb881d0cb339c980ef6fe120057aaae5c9e assets\hmh3\blockstates\light_brown_concrete_powder.json
 1c02be5530bd21479a48e573cb2df61619584a46 assets\hmh3\models\block\light_brown_concrete_powder.json
 21d58471d9063a55f5ef49e6eabe01125ffa26a6 assets\hmh3\models\item\dark_wood.json
@@ -8,6 +8,7 @@ adf63a924fce3fb2200026e60aacc76004fef5aa assets\hmh3\blockstates\light_brown_woo
 970fdae8683b947abfa4b984dc50fa3af417d7bc assets\hmh3\models\item\light_brown_wool.json
 f37b76a23772879c4d628089fca2b6ff9c7bbb7b assets\hmh3\models\block\dark_leaves.json
 93d243206cc5480a271bbcbfa09026f6d3ea5778 assets\hmh3\models\item\light_brown_concrete.json
+2248a37eed6174e48957fea1b3ee3e601c2392e6 assets\hmh3\models\item\sound_block.json
 3aaf2bb88483b359bb2641e10a1d64f3945b13f5 assets\hmh3\models\item\light_brown_concrete_powder.json
 835446d083f02f2b1d64be552d7b30e8e982e224 assets\hmh3\models\item\sculk_hoe.json
 1e0ed281b76b7518827f67a1837136f7ac4d3392 assets\hmh3\models\item\stripped_dark_wood.json
@@ -34,6 +35,7 @@ a6601c17f1977f0fe19093f3d37ec379d4985f6b assets\hmh3\models\item\golden_bagel.js
 aa5107128ed5f9fc6855f754eb3cb32b9cbc18ac assets\hmh3\models\item\dark_planks.json
 c334c8b36c5d35e1bdf1e661dace7dc7dab817d7 assets\hmh3\blockstates\dark_leaves.json
 a2ae3c2da6babb0e834f2152535b813ebf5de2de assets\hmh3\blockstates\light_brown_stained_glass.json
+45cdd68356d7d86398936da91679f8b461bb2632 assets\hmh3\blockstates\sound_block.json
 f0a1e541027efe671bfed8c694c0fecd29fc316d assets\hmh3\blockstates\xp_block.json
 c716f264edadcf76c97b4e1f81db7a98bd13d1eb assets\hmh3\blockstates\light_brown_terracotta.json
 258d403beb13a888f7112cd3ec34c93f95bc1d18 assets\hmh3\models\item\xp_block.json
@@ -42,8 +44,8 @@ d511c7e61ec21f79cacef71e3dea3769a9f9a0e5 assets\hmh3\models\item\dark_leaves.jso
 176f7449362642d41ca3e74ec7e0036a0f136b71 assets\hmh3\models\item\amethyst_sword.json
 97ee79475185a51a5975bab9373de8b2aee8e37e assets\hmh3\models\item\light_brown_stained_glass.json
 2958e9471a695fc5efe07fdcdf14799ceee26af3 assets\hmh3\models\item\vital_fluid.json
-ccf1415bc2a5c6637ad0d7037a3db624c239c140 assets\hmh3\models\item\brick_shovel.json
 7080c16fd1b16da226cea66528bbb1844fa6774a assets\hmh3\models\block\sculk_sponge.json
+ccf1415bc2a5c6637ad0d7037a3db624c239c140 assets\hmh3\models\item\brick_shovel.json
 31f670f44605a746dfeb269b2cbc419c16092c41 assets\hmh3\models\item\sand_tiller.json
 4fd14891afbed43b440fb4feaa3107ae8c9dcee9 assets\hmh3\models\block\dark_planks.json
 86556bed405d25d4b12ade379fbe8ce9aa783b9d assets\hmh3\models\item\sandy_carrot.json
@@ -51,3 +53,4 @@ ccf1415bc2a5c6637ad0d7037a3db624c239c140 assets\hmh3\models\item\brick_shovel.js
 0544ae9dcefba8635080a67671e92096b07a67a4 assets\hmh3\models\item\beating_stick.json
 375601f7f5af9e9e22ce20b820cc5cdcc4fd22c3 assets\hmh3\models\block\light_brown_terracotta.json
 b6034fa8b9f542655dedb6483889e218d7590fce assets\hmh3\blockstates\cement.json
+d5408c766ecb7499ce0ef63ed1cdccd486f40eb7 assets\hmh3\models\block\sound_block.json

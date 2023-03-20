@@ -7,6 +7,7 @@ import net.romeosnowblitz.hmh3.item.ModItemGroup;
 import net.romeosnowblitz.hmh3.item.ModItems;
 import net.romeosnowblitz.hmh3.painting.ModPaintings;
 import net.romeosnowblitz.hmh3.potion.ModPotions;
+import net.romeosnowblitz.hmh3.sound.ModSounds;
 import net.romeosnowblitz.hmh3.util.ModRegistries;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -24,5 +25,6 @@ public class Hmh3 implements ModInitializer {
 		ModRegistries.ModStuffs();
 		ModPotions.registerPotions();
 		ModBlockEntities.registerAllBlockEntities();
+		ModSounds.registerSounds();
 	}
 }

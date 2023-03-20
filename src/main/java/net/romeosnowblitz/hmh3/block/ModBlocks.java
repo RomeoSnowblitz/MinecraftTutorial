@@ -34,6 +34,7 @@ import net.romeosnowblitz.hmh3.block.custom.piston.ModPistonExtensionBlock;
 import net.romeosnowblitz.hmh3.block.custom.piston.ModPistonHeadBlock;
 import net.romeosnowblitz.hmh3.fluid.ModFluids;
 import net.romeosnowblitz.hmh3.item.ModItemGroup;
+import net.romeosnowblitz.hmh3.sound.ModSounds;
 import net.romeosnowblitz.hmh3.world.feature.ModConfiguredFeatures;
 import org.jetbrains.annotations.Nullable;
 
@@ -79,7 +80,8 @@ public class ModBlocks {
     public static final Block MOD_PISTON_HEAD = registerBlock("mod_piston_head", new ModPistonHeadBlock(AbstractBlock.Settings.of(Material.PISTON).strength(1.5f).dropsNothing()), ModItemGroup.MOD_BLOCKS);
     public static final Block MOD_MOVING_PISTON = registerBlock("mod_moving_piston", new ModPistonExtensionBlock(AbstractBlock.Settings.of(Material.PISTON).strength(-1.0f).dynamicBounds().dropsNothing().nonOpaque().solidBlock(ModBlocks::never).suffocates(ModBlocks::never).blockVision(ModBlocks::never)), ModItemGroup.MOD_BLOCKS);
 
-    
+    public static final Block SOUND_BLOCK = registerBlock("sound_block", new Block(AbstractBlock.Settings.of(Material.WOOD).hardness(1.0f).requiresTool().sounds(ModSounds.SOUND_BLOCK)), ModItemGroup.MOD_BLOCKS);
+
 
     private static Boolean never(BlockState state, BlockView world, BlockPos pos, EntityType<?> type) {
         return false;

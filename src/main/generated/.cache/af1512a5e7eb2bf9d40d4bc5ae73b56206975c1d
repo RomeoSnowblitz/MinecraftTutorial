@@ -1,6 +1,6 @@
-// 1.19.3	2023-03-17T00:38:44.8021102	hmh3/Block Loot Tables
-5a7d44c65eedd8815101767074034cdf5c8d5a5b data\hmh3\loot_tables\blocks\dark_fence.json
+// 1.19.3	2023-03-20T01:23:38.2314431	hmh3/Block Loot Tables
 fc73b0308772fa54e7e4fe8d5782c48ac758f0f6 data\hmh3\loot_tables\blocks\magma_piston.json
+5a7d44c65eedd8815101767074034cdf5c8d5a5b data\hmh3\loot_tables\blocks\dark_fence.json
 4c292e6cb5b3deaa6da146823d5fceb52557ba04 data\hmh3\loot_tables\blocks\dark_stairs.json
 e7109582f38f012a3ccbe843868e71e6ea629949 data\hmh3\loot_tables\blocks\toffee_flower.json
 02b9ef366835da18c451aa3c95eba38597a15d89 data\hmh3\loot_tables\blocks\light_brown_concrete.json
@@ -23,4 +23,5 @@ d16e3ead2e61f95d88fac679b93979aa0cedf31e data\hmh3\loot_tables\blocks\dark_fence
 7642e1d064fce82f34d87e1563100f808f8fd6b1 data\hmh3\loot_tables\blocks\dark_sapling.json
 f722e03e9eccdf58cc2553185eec0357cbf8b37b data\hmh3\loot_tables\blocks\light_brown_carpet.json
 69a270dc7462635684c4f31a6533ded84b635b33 data\hmh3\loot_tables\blocks\light_brown_concrete_powder.json
+95c2972bf6f64c0d1faa8b319754e891200aba06 data\hmh3\loot_tables\blocks\sound_block.json
 d4baf96aad59f777aab40bbeff360203b24c62f2 data\hmh3\loot_tables\blocks\cement.json

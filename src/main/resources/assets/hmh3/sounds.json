@@ -1,0 +1,78 @@
+{
+
+  "sound_break": {
+    "subtitle": "Break Sound",
+    "sounds": [
+      "hmh3:kk1",
+      "hmh3:kk2",
+      "hmh3:kk3",
+      "hmh3:kk4",
+      "hmh3:kk5"
+    ]
+  },
+
+  "sound_step": {
+    "subtitle": "Step Sound",
+    "sounds": [
+      "hmh3:yh1",
+      "hmh3:yh2",
+      "hmh3:yh3",
+      "hmh3:yh4",
+      "hmh3:yh5",
+      "hmh3:wah1",
+      "hmh3:wah2",
+      "hmh3:wah3",
+      "hmh3:wah4"
+    ]
+  },
+
+  "sound_place": {
+    "subtitle": "Place Sound",
+    "sounds": [
+      "hmh3:uw1",
+      "hmh3:uw2",
+      "hmh3:uw3",
+      "hmh3:uw4",
+      "hmh3:uw5",
+      "hmh3:ow1",
+      "hmh3:ow2",
+      "hmh3:ow3",
+      "hmh3:ow4",
+      "hmh3:ow5"
+    ]
+  },
+
+  "sound_hit": {
+    "subtitle": "Hit Sound",
+    "sounds": [
+      "hmh3:cl1",
+      "hmh3:cl2",
+      "hmh3:cl3",
+      "hmh3:cl4",
+      "hmh3:cl5",
+      "hmh3:po1",
+      "hmh3:po2",
+      "hmh3:po3",
+      "hmh3:po4"
+    ]
+  },
+
+  "sound_fall": {
+    "subtitle": "Fall Sound",
+    "sounds": [
+      "hmh3:yl1",
+      "hmh3:yl2",
+      "hmh3:hw1",
+      "hmh3:sc1",
+      "hmh3:sc2"
+    ]
+  },
+
+  "single_sound": {
+    "subtitle": "Testing Sound(s)",
+    "sounds": [
+      "hmh3:single_sound"
+    ]
+  }
+
+}
