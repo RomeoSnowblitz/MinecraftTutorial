@@ -65,8 +65,9 @@
   "block.hmh3.dark_fence": "Dark Fence",
   "block.hmh3.dark_fence_gate": "Dark Fence Gate",
   "block.hmh3.cement_wall": "Cement Wall",
-  "block.hmh3.magma_piston": "Magma Piston"
+  "block.hmh3.magma_piston": "Magma Piston",
+  "block.hmh3.sound_block": "Sound Block",
 
-
+  "effect.hmh3.deathsomnia": "Deathsomnia"
 
 }
