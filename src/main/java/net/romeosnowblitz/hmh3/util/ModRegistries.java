@@ -1,11 +1,14 @@
 package net.romeosnowblitz.hmh3.util;
 
+import net.fabricmc.fabric.api.object.builder.v1.entity.FabricDefaultAttributeRegistry;
 import net.fabricmc.fabric.api.registry.FlammableBlockRegistry;
 import net.fabricmc.fabric.api.registry.FlattenableBlockRegistry;
 import net.fabricmc.fabric.api.registry.OxidizableBlocksRegistry;
 import net.fabricmc.fabric.api.registry.StrippableBlockRegistry;
 import net.minecraft.block.Blocks;
 import net.romeosnowblitz.hmh3.block.ModBlocks;
+import net.romeosnowblitz.hmh3.entity.ModEntities;
+import net.romeosnowblitz.hmh3.entity.entity.FluffersEntity;
 
 public class ModRegistries {
 
@@ -14,6 +17,7 @@ public class ModRegistries {
         ModFlammables();
         ModFlattenables();
         ModOxidizables();
+        registerAttributes();
     }
 
 
@@ -45,5 +49,8 @@ public class ModRegistries {
         OxidizableBlocksRegistry.registerWaxableBlockPair(Blocks.BLACK_CONCRETE_POWDER, Blocks.BLACK_CONCRETE);
     }
 
+    private static void registerAttributes(){
+        FabricDefaultAttributeRegistry.register(ModEntities.FLUFFERS, FluffersEntity.setAttributes());
+    }
 
 }

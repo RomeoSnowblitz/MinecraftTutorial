@@ -68,6 +68,7 @@
   "block.hmh3.magma_piston": "Magma Piston",
   "block.hmh3.sound_block": "Sound Block",
 
-  "effect.hmh3.deathsomnia": "Deathsomnia"
+  "effect.hmh3.deathsomnia": "Deathsomnia",
+  "entity.hmh3.fluffers": "Fluffers"
 
 }

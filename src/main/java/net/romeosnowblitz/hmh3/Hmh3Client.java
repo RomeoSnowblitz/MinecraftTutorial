@@ -5,9 +5,14 @@ import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
 import net.fabricmc.fabric.api.client.render.fluid.v1.FluidRenderHandler;
 import net.fabricmc.fabric.api.client.render.fluid.v1.FluidRenderHandlerRegistry;
 import net.fabricmc.fabric.api.client.render.fluid.v1.SimpleFluidRenderHandler;
+import net.fabricmc.fabric.api.client.rendering.v1.EntityRendererRegistry;
 import net.fabricmc.fabric.mixin.client.rendering.fluid.FluidRendererMixin;
 import net.minecraft.client.render.RenderLayer;
+import net.minecraft.entity.mob.MobEntity;
 import net.romeosnowblitz.hmh3.block.ModBlocks;
+import net.romeosnowblitz.hmh3.entity.ModEntities;
+import net.romeosnowblitz.hmh3.entity.client.FluffersRenderer;
+import net.romeosnowblitz.hmh3.entity.entity.FluffersEntity;
 import net.romeosnowblitz.hmh3.fluid.ModFluids;
 import net.romeosnowblitz.hmh3.util.ModModelPredicateProvider;
 
@@ -29,5 +34,7 @@ public class Hmh3Client implements ClientModInitializer {
                 SimpleFluidRenderHandler.WATER_STILL, SimpleFluidRenderHandler.WATER_FLOWING, SimpleFluidRenderHandler.WATER_OVERLAY, 0x80050d));
         FluidRenderHandlerRegistry.INSTANCE.register(ModFluids.VITAL_FLUID_FLOWING, new SimpleFluidRenderHandler(
                 SimpleFluidRenderHandler.WATER_STILL, SimpleFluidRenderHandler.WATER_FLOWING, SimpleFluidRenderHandler.WATER_OVERLAY, 0x80050d));
+
+        EntityRendererRegistry.register(ModEntities.FLUFFERS, FluffersRenderer::new);
     }
 }

@@ -1,5 +1,72 @@
 {
 
+  "entity_ambient": {
+    "subtitle": "Fluffer Sounds",
+    "sounds": [
+      "hmh3:ib1",
+      "hmh3:ib2",
+      "hmh3:ib3",
+      "hmh3:ab1",
+      "hmh3:ab2",
+      "hmh3:ab3",
+      "hmh3:ab4",
+      "hmh3:ab5",
+      "hmh3:ab6",
+      "hmh3:ab7"
+    ]
+  },
+
+  "entity_hurt": {
+    "subtitle": "Fluffer Hurts",
+    "sounds": [
+      "hmh3:ck1",
+      "hmh3:ck2",
+      "hmh3:ck3",
+      "hmh3:ck4",
+      "hmh3:ck5",
+      "hmh3:ig1",
+      "hmh3:ig2",
+      "hmh3:ig3",
+      "hmh3:ig4",
+      "hmh3:ig5",
+      "hmh3:ig6"
+    ]
+  },
+
+  "entity_death": {
+    "subtitle": "Fluffer Dies",
+    "sounds": [
+      "hmh3:bl1",
+      "hmh3:bl2",
+      "hmh3:bl3",
+      "hmh3:bl4",
+      "hmh3:bl5",
+      "hmh3:vm1",
+      "hmh3:vm2",
+      "hmh3:vm3",
+      "hmh3:vm4",
+      "hmh3:vm5"
+    ]
+  },
+
+  "entity_step": {
+    "subtitle": "Fluffer Walks",
+    "sounds": [
+      "hmh3:c1",
+      "hmh3:c2",
+      "hmh3:c3",
+      "hmh3:c4",
+      "hmh3:2sp1",
+      "hmh3:2sp2",
+      "hmh3:3sp1",
+      "hmh3:3sp2",
+      "hmh3:4sp1",
+      "hmh3:4sp2",
+      "hmh3:gs1",
+      "hmh3:gs2"
+    ]
+  },
+
   "sound_break": {
     "subtitle": "Break Sound",
     "sounds": [
@@ -72,6 +139,33 @@
     "subtitle": "Testing Sound(s)",
     "sounds": [
       "hmh3:single_sound"
+    ]
+  },
+
+  "blem": {
+    "subtitle": "Blem",
+    "sounds": [
+      "hmh3:bm1",
+      "hmh3:bm2",
+      "hmh3:bm3"
+    ]
+  },
+
+  "snap": {
+    "subtitle": "Snap",
+    "sounds": [
+      "hmh3:snap"
+    ]
+  },
+
+  "raindrop": {
+    "subtitle": "Raindrop",
+    "sounds": [
+      "hmh3:rd1",
+      "hmh3:rd2",
+      "hmh3:rd3",
+      "hmh3:rd4",
+      "hmh3:rd5"
     ]
   }
 
