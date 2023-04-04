@@ -37,5 +37,6 @@ public class ModLootTableGenerator extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.CEMENT_WALL);
         addDrop(ModBlocks.MAGMA_PISTON);
         addDrop(ModBlocks.SOUND_BLOCK);
+        addDrop(ModBlocks.SUMMONING_BLOCK);
     }
 }

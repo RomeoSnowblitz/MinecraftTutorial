@@ -67,6 +67,8 @@
   "block.hmh3.cement_wall": "Cement Wall",
   "block.hmh3.magma_piston": "Magma Piston",
   "block.hmh3.sound_block": "Sound Block",
+  "block.hmh3.infested_cement": "Infested Cement",
+  "block.hmh3.summoning_block": "Summoning Block",
 
   "effect.hmh3.deathsomnia": "Deathsomnia",
   "entity.hmh3.fluffers": "Fluffers"
