@@ -31,10 +31,6 @@ public class ModConfiguredFeatures {
 
     }
 
-
-
-
-
     public static RegistryKey<ConfiguredFeature<?,?>> registryKey(String name){
         return RegistryKey.of(RegistryKeys.CONFIGURED_FEATURE, new Identifier(Hmh3.MOD_ID, name));
     }

@@ -14,6 +14,7 @@ public class ModEntities {
 
     public static final EntityType<FluffersEntity> FLUFFERS =
             Registry.register(Registries.ENTITY_TYPE, new Identifier(Hmh3.MOD_ID, "fluffers"),
+
                     FabricEntityTypeBuilder.create(SpawnGroup.CREATURE, FluffersEntity::new)
                             .dimensions(EntityDimensions.fixed(0.5f, 0.75f)).build());
 

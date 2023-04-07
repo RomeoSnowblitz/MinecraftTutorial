@@ -104,6 +104,12 @@
         "weight": 12
       },
       {
+        "type": "hmh3:fluffers",
+        "maxCount": 3,
+        "minCount": 1,
+        "weight": 10
+      },
+      {
         "type": "minecraft:pig",
         "maxCount": 4,
         "minCount": 4,

@@ -22,6 +22,8 @@
   "features": [
     [],
     [
+      "hmh3:lake_vital_surface",
+      "hmh3:lake_vital_underground",
       "minecraft:lake_lava_underground",
       "minecraft:lake_lava_surface"
     ],
